@@ -1,0 +1,44 @@
+[
+  {
+    "id": "3d4463ceb0eb0c15f5e99baeb653c08b",
+    "place_name": "Red Castle The Restaurant",
+    "nom": "Red Castle Restaurant",
+    "adresse": "01 Avenue Tarek Ibn Zied, Tunis, Menzah 5",
+    "telephone": "+216 31 167 615",
+    "social_links": [
+      {
+        "url": "https://instagram.com/redcastleresto",
+        "type": "instagram",
+        "name_score": 1.0,
+        "address_score": 0.9,
+        "phone_match": false,
+        "overall_score": 0.6166666666666667,
+        "verified": true,
+        "details": "Nom (1.00) | Adresse (0.90 - nom)"
+      },
+      {
+        "url": "https://facebook.com/RedCastleTheRestaurant",
+        "type": "facebook",
+        "name_score": 1.0,
+        "address_score": 0.6097560975609756,
+        "phone_match": true,
+        "overall_score": 0.8048780487804877,
+        "verified": true,
+        "details": "Nom (1.00) | Adresse (0.61 - texte) | Téléphone"
+      },
+      {
+        "url": "https://instagram.com/redcastletn",
+        "type": "instagram",
+        "name_score": 0.6875,
+        "address_score": 0.46341463414634143,
+        "phone_match": false,
+        "overall_score": 0.34629065040650403,
+        "verified": false,
+        "details": "Nom (0.69) | Adresse (0.46 - texte)"
+      }
+    ],
+    "verification_status": "VERIFIED",
+    "verification_details": "Confirmé par 2 lien(s) social(ux)",
+    "best_overall_score": 0.8048780487804877
+  }
+]

@@ -1,0 +1,7 @@
+__pycache__/
+.venv/
+facebook_reviews_advanced/models/
+glovo_data/
+screenshots/
+social_media_da/
+*.bin
