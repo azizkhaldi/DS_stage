@@ -75,7 +75,7 @@ Elle combine **Playwright, BeautifulSoup, LLM (Ollama + LangChain), NLP et modè
 | `phone` | Vérification correspondance téléphone | 2 |
 
 **Formule :**
-```text
+
 overall_score = ((name_score×1) + (address_score×3) + (phone_score×2)) / (1+3+2)
 # Interprétation
 
