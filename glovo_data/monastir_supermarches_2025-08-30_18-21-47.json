@@ -1,0 +1,1265 @@
+{
+  "scraping_date": "2025-08-31T02:30:17.936447",
+  "city": "monastir",
+  "category_type": "supermarches",
+  "url": "https://glovoapp.com/en/tn/monastir/categories/supermarches_4",
+  "page_title": "Glovo",
+  "raw_text": "",
+  "data": [
+    {
+      "category_name": "MONOPRIX",
+      "category_url": "https://glovoapp.com/tn/en/monastir/monoprix-mst",
+      "image": "https://glovo.dhmedia.io/image/stores-glovo/stores/5523a18db51f3d78ab70a192069007dded89868ac10e09f59472b41e2caa0390?t=W3sicmVzaXplIjp7IndpZHRoIjo1NTB9fSx7IndlYnAiOnt9fV0=",
+      "delivery_fee": "N/A",
+      "delivery_time": "N/A",
+      "rating": "0087%",
+      "number_of_reviews": "154",
+      "promotion": "0087%",
+      "products": [
+        {
+          "product_name": "Chocolat noir",
+          "product_price": "5,600 D",
+          "original_price": "5,600 D",
+          "product_image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/aa/3288b8de-5844-4548-a36d-4b49d2190801.jpg?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoxNTAsImhlaWdodCI6MTUwfX1d",
+          "promotion": "-72%",
+          "description": "Chocolat noir 72% cacao MAESTRO 90GR  - 100",
+          "section": "MONOPRIX"
+        },
+        {
+          "product_name": "Fromage",
+          "product_price": "5,200 D",
+          "original_price": "5,200 D",
+          "product_image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/aa/ee8f1168-d73b-43d6-be8d-8d9b6053b230.jpg?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoxNTAsImhlaWdodCI6MTUwfX1d",
+          "promotion": "N/A",
+          "description": "Fromage frais fraidoux PRESIDENT 240GR  - 052",
+          "section": "MONOPRIX"
+        },
+        {
+          "product_name": "Poulet rôti el mazraa la pièce",
+          "product_price": "16,400 D",
+          "original_price": "16,400 D",
+          "product_image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/aa/ba3f56d9-0918-46e7-8417-e60ee50dbdfd.jpg?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoxNTAsImhlaWdodCI6MTUwfX1d",
+          "promotion": "N/A",
+          "description": "Poulet rôti EL MAZRAA La pièce  - 000",
+          "section": "MONOPRIX"
+        },
+        {
+          "product_name": "Fromage",
+          "product_price": "5,800 D",
+          "original_price": "5,800 D",
+          "product_image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/aa/d0f89a01-e526-4854-a667-9bb797f01c10.jpg?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoxNTAsImhlaWdodCI6MTUwfX1d",
+          "promotion": "N/A",
+          "description": "Fromage frais carré PRESIDENT 12 portions  - 069",
+          "section": "MONOPRIX"
+        },
+        {
+          "product_name": "Fromage",
+          "product_price": "5,380 D",
+          "original_price": "5,380 D",
+          "product_image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/aa/62a397e8-f5a3-45dd-84e8-cb4d62ff2e35.jpg?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoxNTAsImhlaWdodCI6MTUwfX1d",
+          "promotion": "N/A",
+          "description": "Fromage râpé fondant PRESIDENT 110GR  - 154",
+          "section": "MONOPRIX"
+        }
+      ]
+    },
+    {
+      "category_name": "Magasins Aziza",
+      "category_url": "https://glovoapp.com/tn/en/monastir/magasins-aziza-mst",
+      "image": "https://glovo.dhmedia.io/image/stores-glovo/stores/1c6c51f4477bacc672cf21e23a02a4a8e08ac832bc4991e1c6eb5939f626a287?t=W3sicmVzaXplIjp7IndpZHRoIjo1NTB9fSx7IndlYnAiOnt9fV0=",
+      "delivery_fee": "N/A",
+      "delivery_time": "N/A",
+      "rating": "0087%",
+      "number_of_reviews": "25",
+      "promotion": "0087%",
+      "products": []
+    },
+    {
+      "category_name": "Croissant sahline",
+      "category_url": "https://glovoapp.com/tn/en/monastir/cafeteria-touai-mst",
+      "image": "https://glovo.dhmedia.io/image/stores-glovo/stores/ea2cb473351cb6bff1f5c69aaa4e0494ceda84f0df58d8e838a7863518acf5a7?t=W3sicmVzaXplIjp7IndpZHRoIjo1NTB9fSx7IndlYnAiOnt9fV0=",
+      "delivery_fee": "N/A",
+      "delivery_time": "N/A",
+      "rating": "N/A",
+      "number_of_reviews": "N/A",
+      "promotion": "N/A",
+      "products": [
+        {
+          "product_name": "Carre",
+          "product_price": "1,800 D",
+          "original_price": "1,800 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/78ce36d8a682cb98dd5e63485f818ed8577bdc03289752bd201fafb352f615d9?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "N/A",
+          "section": "Croissant sahline"
+        },
+        {
+          "product_name": "Croissant nature",
+          "product_price": "1,700 D",
+          "original_price": "1,700 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/e3cda36391d746308b9106b197474812089f26ee4372a62366b44a626d08e8de?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Pain brioché, beurre",
+          "section": "Croissant sahline"
+        },
+        {
+          "product_name": "Croissant pain au chocolat",
+          "product_price": "1,700 D",
+          "original_price": "1,700 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/361c8c8876bf3899ca172221c0d3d7bb1c93b45be7dfeb85a8314ec2d670dfe4?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Croissant Pain Au Chocolat T",
+          "section": "Croissant sahline"
+        },
+        {
+          "product_name": "Tarte au fruit",
+          "product_price": "2,800 D",
+          "original_price": "2,800 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/a44ca6c69be7c0c444ca0df6d1f8bbaf8a1f6b61b760743daf2b732146340b32?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Tarte, crème, fruit",
+          "section": "Croissant sahline"
+        },
+        {
+          "product_name": "Tarte aux amandes",
+          "product_price": "2,300 D",
+          "original_price": "2,300 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/e8f81d5c758d68e1c85803b9720beb493361ae12e1d961acdcb9d81b9952dfdc?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Tarte, crème, amandes",
+          "section": "Croissant sahline"
+        },
+        {
+          "product_name": "Américain",
+          "product_price": "2,300 D",
+          "original_price": "2,300 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/c403c88c43cebfc77fd7a8723efbe109113bca08b33a6423a929608c0a07d627?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Café",
+          "section": "Croissant sahline"
+        },
+        {
+          "product_name": "Café crème",
+          "product_price": "2,200 D",
+          "original_price": "2,200 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/6b08041f39e7139515f08aeaeeb1ae27622b9e2397c8454b0c8f2ade84e257fd?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Café",
+          "section": "Croissant sahline"
+        },
+        {
+          "product_name": "Capucin",
+          "product_price": "2,000 D",
+          "original_price": "2,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/f994664df02c7089e45e55b7e7e93f58902d4a5df755f8f82711ad2d4db53900?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Café",
+          "section": "Croissant sahline"
+        },
+        {
+          "product_name": "Chocolat au lait",
+          "product_price": "2,000 D",
+          "original_price": "2,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/c97d68834aa29cbf0dc500c71d1450704b3a768a583c51b536c960854f755ace?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Café",
+          "section": "Croissant sahline"
+        },
+        {
+          "product_name": "Café noir",
+          "product_price": "1,000 D",
+          "original_price": "1,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/baea06389257c1b461f8b30117f0dcdb570f6659e1e720ab7655af53faa430cf?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Café",
+          "section": "Croissant sahline"
+        },
+        {
+          "product_name": "Jus mélange fruits fraise",
+          "product_price": "4,500 D",
+          "original_price": "4,500 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/6e5c5ddeb61da21a7f73bd14b6f247ed49b8f6fa9b7d3b8a83f0becc3b95aa2d?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Mélange fruits fraise",
+          "section": "Croissant sahline"
+        },
+        {
+          "product_name": "Jus fraise",
+          "product_price": "3,000 D",
+          "original_price": "3,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/b8f6d3f1bdd98973e8722636c738b62bb85b12b8d32338889f5b337acf3d1876?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Fraise",
+          "section": "Croissant sahline"
+        },
+        {
+          "product_name": "Jus de citron",
+          "product_price": "3,000 D",
+          "original_price": "3,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/739e48b068a369ea07527572209a730c430d14a82699f35ae7be8ff189802852?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Citron",
+          "section": "Croissant sahline"
+        },
+        {
+          "product_name": "Jus fruit pomme banane",
+          "product_price": "3,000 D",
+          "original_price": "3,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/e19af428465f9a2493c033f13d7bcf4b3edb554b2388c7c10769a529309cd9cb?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Pomme, banane",
+          "section": "Croissant sahline"
+        },
+        {
+          "product_name": "Eau minérale 1.5 l",
+          "product_price": "1,600 D",
+          "original_price": "1,600 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/c0f6800c22855804e729746daaee0e0655801b3f5c4132d72be8d0ef3bdd99e6?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Eau minérale",
+          "section": "Croissant sahline"
+        },
+        {
+          "product_name": "Eau minérale 0.5 l",
+          "product_price": "1,000 D",
+          "original_price": "1,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/3147e58a15b75faafcb49dacefb9bdf81ebb68a2f86e191438850129c35c7ccb?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Eau minérale",
+          "section": "Croissant sahline"
+        },
+        {
+          "product_name": "Carre",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/78ce36d8a682cb98dd5e63485f818ed8577bdc03289752bd201fafb352f615d9?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "N/A",
+          "section": "Croissant sahline"
+        },
+        {
+          "product_name": "Croissant nature",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/e3cda36391d746308b9106b197474812089f26ee4372a62366b44a626d08e8de?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Pain brioché, beurre",
+          "section": "Croissant sahline"
+        },
+        {
+          "product_name": "Croissant pain au chocolat",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/361c8c8876bf3899ca172221c0d3d7bb1c93b45be7dfeb85a8314ec2d670dfe4?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Croissant Pain Au Chocolat",
+          "section": "Croissant sahline"
+        },
+        {
+          "product_name": "Tarte au fruit",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/a44ca6c69be7c0c444ca0df6d1f8bbaf8a1f6b61b760743daf2b732146340b32?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Tarte, crème, fruit",
+          "section": "Croissant sahline"
+        },
+        {
+          "product_name": "Tarte aux amandes",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/e8f81d5c758d68e1c85803b9720beb493361ae12e1d961acdcb9d81b9952dfdc?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Tarte, crème, amandes",
+          "section": "Croissant sahline"
+        },
+        {
+          "product_name": "Américain",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/c403c88c43cebfc77fd7a8723efbe109113bca08b33a6423a929608c0a07d627?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Café",
+          "section": "Croissant sahline"
+        },
+        {
+          "product_name": "Café crème",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/6b08041f39e7139515f08aeaeeb1ae27622b9e2397c8454b0c8f2ade84e257fd?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Café",
+          "section": "Croissant sahline"
+        },
+        {
+          "product_name": "Capucin",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/f994664df02c7089e45e55b7e7e93f58902d4a5df755f8f82711ad2d4db53900?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Café",
+          "section": "Croissant sahline"
+        },
+        {
+          "product_name": "Chocolat au lait",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/c97d68834aa29cbf0dc500c71d1450704b3a768a583c51b536c960854f755ace?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Café",
+          "section": "Croissant sahline"
+        },
+        {
+          "product_name": "Café noir",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/baea06389257c1b461f8b30117f0dcdb570f6659e1e720ab7655af53faa430cf?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Café",
+          "section": "Croissant sahline"
+        },
+        {
+          "product_name": "Jus mélange fruits fraise",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/6e5c5ddeb61da21a7f73bd14b6f247ed49b8f6fa9b7d3b8a83f0becc3b95aa2d?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Mélange fruits fraise",
+          "section": "Croissant sahline"
+        },
+        {
+          "product_name": "Jus fraise",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/b8f6d3f1bdd98973e8722636c738b62bb85b12b8d32338889f5b337acf3d1876?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Fraise",
+          "section": "Croissant sahline"
+        },
+        {
+          "product_name": "Jus de citron",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/739e48b068a369ea07527572209a730c430d14a82699f35ae7be8ff189802852?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Citron",
+          "section": "Croissant sahline"
+        },
+        {
+          "product_name": "Jus fruit pomme banane",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/e19af428465f9a2493c033f13d7bcf4b3edb554b2388c7c10769a529309cd9cb?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Pomme, banane",
+          "section": "Croissant sahline"
+        },
+        {
+          "product_name": "Eau minérale 1.5 l",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/c0f6800c22855804e729746daaee0e0655801b3f5c4132d72be8d0ef3bdd99e6?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Eau minérale",
+          "section": "Croissant sahline"
+        },
+        {
+          "product_name": "Eau minérale 0.5 l",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/3147e58a15b75faafcb49dacefb9bdf81ebb68a2f86e191438850129c35c7ccb?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Eau minérale",
+          "section": "Croissant sahline"
+        },
+        {
+          "product_name": "Carre",
+          "product_price": "1,800 D",
+          "original_price": "1,800 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/78ce36d8a682cb98dd5e63485f818ed8577bdc03289752bd201fafb352f615d9?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "N/A",
+          "section": "Nos Croissants"
+        },
+        {
+          "product_name": "Croissant nature",
+          "product_price": "1,700 D",
+          "original_price": "1,700 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/e3cda36391d746308b9106b197474812089f26ee4372a62366b44a626d08e8de?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Pain brioché, beurre",
+          "section": "Nos Croissants"
+        },
+        {
+          "product_name": "Croissant pain au chocolat",
+          "product_price": "1,700 D",
+          "original_price": "1,700 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/361c8c8876bf3899ca172221c0d3d7bb1c93b45be7dfeb85a8314ec2d670dfe4?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Croissant Pain Au Chocolat T",
+          "section": "Nos Croissants"
+        },
+        {
+          "product_name": "Carre",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/78ce36d8a682cb98dd5e63485f818ed8577bdc03289752bd201fafb352f615d9?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "N/A",
+          "section": "Nos Croissants"
+        },
+        {
+          "product_name": "Croissant nature",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/e3cda36391d746308b9106b197474812089f26ee4372a62366b44a626d08e8de?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Pain brioché, beurre",
+          "section": "Nos Croissants"
+        },
+        {
+          "product_name": "Croissant pain au chocolat",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/361c8c8876bf3899ca172221c0d3d7bb1c93b45be7dfeb85a8314ec2d670dfe4?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Croissant Pain Au Chocolat",
+          "section": "Nos Croissants"
+        },
+        {
+          "product_name": "Tarte au fruit",
+          "product_price": "2,800 D",
+          "original_price": "2,800 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/a44ca6c69be7c0c444ca0df6d1f8bbaf8a1f6b61b760743daf2b732146340b32?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Tarte, crème, fruit",
+          "section": "Nos Gâteaux"
+        },
+        {
+          "product_name": "Tarte aux amandes",
+          "product_price": "2,300 D",
+          "original_price": "2,300 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/e8f81d5c758d68e1c85803b9720beb493361ae12e1d961acdcb9d81b9952dfdc?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Tarte, crème, amandes",
+          "section": "Nos Gâteaux"
+        },
+        {
+          "product_name": "Tarte au fruit",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/a44ca6c69be7c0c444ca0df6d1f8bbaf8a1f6b61b760743daf2b732146340b32?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Tarte, crème, fruit",
+          "section": "Nos Gâteaux"
+        },
+        {
+          "product_name": "Tarte aux amandes",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/e8f81d5c758d68e1c85803b9720beb493361ae12e1d961acdcb9d81b9952dfdc?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Tarte, crème, amandes",
+          "section": "Nos Gâteaux"
+        },
+        {
+          "product_name": "Américain",
+          "product_price": "2,300 D",
+          "original_price": "2,300 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/c403c88c43cebfc77fd7a8723efbe109113bca08b33a6423a929608c0a07d627?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Café",
+          "section": "Café"
+        },
+        {
+          "product_name": "Café crème",
+          "product_price": "2,200 D",
+          "original_price": "2,200 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/6b08041f39e7139515f08aeaeeb1ae27622b9e2397c8454b0c8f2ade84e257fd?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Café",
+          "section": "Café"
+        },
+        {
+          "product_name": "Capucin",
+          "product_price": "2,000 D",
+          "original_price": "2,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/f994664df02c7089e45e55b7e7e93f58902d4a5df755f8f82711ad2d4db53900?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Café",
+          "section": "Café"
+        },
+        {
+          "product_name": "Chocolat au lait",
+          "product_price": "2,000 D",
+          "original_price": "2,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/c97d68834aa29cbf0dc500c71d1450704b3a768a583c51b536c960854f755ace?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Café",
+          "section": "Café"
+        },
+        {
+          "product_name": "Café noir",
+          "product_price": "1,000 D",
+          "original_price": "1,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/baea06389257c1b461f8b30117f0dcdb570f6659e1e720ab7655af53faa430cf?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Café",
+          "section": "Café"
+        },
+        {
+          "product_name": "Américain",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/c403c88c43cebfc77fd7a8723efbe109113bca08b33a6423a929608c0a07d627?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Café",
+          "section": "Café"
+        },
+        {
+          "product_name": "Café crème",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/6b08041f39e7139515f08aeaeeb1ae27622b9e2397c8454b0c8f2ade84e257fd?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Café",
+          "section": "Café"
+        },
+        {
+          "product_name": "Capucin",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/f994664df02c7089e45e55b7e7e93f58902d4a5df755f8f82711ad2d4db53900?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Café",
+          "section": "Café"
+        },
+        {
+          "product_name": "Chocolat au lait",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/c97d68834aa29cbf0dc500c71d1450704b3a768a583c51b536c960854f755ace?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Café",
+          "section": "Café"
+        },
+        {
+          "product_name": "Café noir",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/baea06389257c1b461f8b30117f0dcdb570f6659e1e720ab7655af53faa430cf?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Café",
+          "section": "Café"
+        },
+        {
+          "product_name": "Jus mélange fruits fraise",
+          "product_price": "4,500 D",
+          "original_price": "4,500 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/6e5c5ddeb61da21a7f73bd14b6f247ed49b8f6fa9b7d3b8a83f0becc3b95aa2d?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Mélange fruits fraise",
+          "section": "Boisson"
+        },
+        {
+          "product_name": "Jus fraise",
+          "product_price": "3,000 D",
+          "original_price": "3,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/b8f6d3f1bdd98973e8722636c738b62bb85b12b8d32338889f5b337acf3d1876?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Fraise",
+          "section": "Boisson"
+        },
+        {
+          "product_name": "Jus de citron",
+          "product_price": "3,000 D",
+          "original_price": "3,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/739e48b068a369ea07527572209a730c430d14a82699f35ae7be8ff189802852?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Citron",
+          "section": "Boisson"
+        },
+        {
+          "product_name": "Jus fruit pomme banane",
+          "product_price": "3,000 D",
+          "original_price": "3,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/e19af428465f9a2493c033f13d7bcf4b3edb554b2388c7c10769a529309cd9cb?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Pomme, banane",
+          "section": "Boisson"
+        },
+        {
+          "product_name": "Eau minérale 1.5 l",
+          "product_price": "1,600 D",
+          "original_price": "1,600 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/c0f6800c22855804e729746daaee0e0655801b3f5c4132d72be8d0ef3bdd99e6?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Eau minérale",
+          "section": "Boisson"
+        },
+        {
+          "product_name": "Eau minérale 0.5 l",
+          "product_price": "1,000 D",
+          "original_price": "1,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/3147e58a15b75faafcb49dacefb9bdf81ebb68a2f86e191438850129c35c7ccb?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Eau minérale",
+          "section": "Boisson"
+        },
+        {
+          "product_name": "Jus mélange fruits fraise",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/6e5c5ddeb61da21a7f73bd14b6f247ed49b8f6fa9b7d3b8a83f0becc3b95aa2d?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Mélange fruits fraise",
+          "section": "Boisson"
+        },
+        {
+          "product_name": "Jus fraise",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/b8f6d3f1bdd98973e8722636c738b62bb85b12b8d32338889f5b337acf3d1876?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Fraise",
+          "section": "Boisson"
+        },
+        {
+          "product_name": "Jus de citron",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/739e48b068a369ea07527572209a730c430d14a82699f35ae7be8ff189802852?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Citron",
+          "section": "Boisson"
+        },
+        {
+          "product_name": "Jus fruit pomme banane",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/e19af428465f9a2493c033f13d7bcf4b3edb554b2388c7c10769a529309cd9cb?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Pomme, banane",
+          "section": "Boisson"
+        },
+        {
+          "product_name": "Eau minérale 1.5 l",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/c0f6800c22855804e729746daaee0e0655801b3f5c4132d72be8d0ef3bdd99e6?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Eau minérale",
+          "section": "Boisson"
+        },
+        {
+          "product_name": "Eau minérale 0.5 l",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/3147e58a15b75faafcb49dacefb9bdf81ebb68a2f86e191438850129c35c7ccb?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Eau minérale",
+          "section": "Boisson"
+        }
+      ]
+    },
+    {
+      "category_name": "Rôti express sahline",
+      "category_url": "https://glovoapp.com/tn/en/monastir/roti-express-sahline-mst",
+      "image": "https://glovo.dhmedia.io/image/stores-glovo/stores/797ed3fb1613d655fd1975355aeb1cccec2b4b3983d1189df9e159ded4d4c876?t=W3sicmVzaXplIjp7IndpZHRoIjo1NTB9fSx7IndlYnAiOnt9fV0=",
+      "delivery_fee": "N/A",
+      "delivery_time": "N/A",
+      "rating": "N/A",
+      "number_of_reviews": "N/A",
+      "promotion": "N/A",
+      "products": [
+        {
+          "product_name": "Plat lapin grillé complet",
+          "product_price": "38,500 D",
+          "original_price": "38,500 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/e839c25a38b691957af5a81ac212e62c33d168d015053c0637a66ce76b306d24?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Lapin grillé complet, frite, salade laitue, tomate, harissa, mayonnaise, garniture au choix, pain",
+          "section": "Rôti express sahline"
+        },
+        {
+          "product_name": "Plat poulet grillé complet",
+          "product_price": "26,400 D",
+          "original_price": "26,400 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/ab05e4f238fcdeb1f50bd397687c0eca14732b79f636f52f109022853f6a4d62?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Poulet grillé, frite, salade laitue, tomate, harissa, mayonnaise, pain, garniture au choix",
+          "section": "Rôti express sahline"
+        },
+        {
+          "product_name": "Plat poulet rôtie complet",
+          "product_price": "22,100 D",
+          "original_price": "22,100 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/caeac5e6c6392da22fa30d9ac95b7c0ef257be910d4060396e33463af39e65ff?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Poulet rôtie, frite, salade laitue, tomate, harissa, mayonnaise, garniture au choix, pain",
+          "section": "Rôti express sahline"
+        },
+        {
+          "product_name": "Plat poulet grillé sec",
+          "product_price": "21,000 D",
+          "original_price": "21,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/26628f7ac822d238164675287a54b7aeaef1d24a34dd8b8e8788cff4a5c0ad7b?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Poulet grillé",
+          "section": "Rôti express sahline"
+        },
+        {
+          "product_name": "Plat lapin grillé sec",
+          "product_price": "18,000 D",
+          "original_price": "18,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/34bf9ddcde5e7f86d0c1461cacc6af88ffd65319beb7b00df22b6a7362ee3d2d?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Lapin grillé sec",
+          "section": "Rôti express sahline"
+        },
+        {
+          "product_name": "Plat poulet rôtie sec",
+          "product_price": "17,600 D",
+          "original_price": "17,600 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/fa00e4609090b0648618a962ed0830c25c9dbfd94bbb7d3832e72a116ac8304f?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Poulet rôtie",
+          "section": "Rôti express sahline"
+        },
+        {
+          "product_name": "Plat cuisse de dinde sec",
+          "product_price": "16,500 D",
+          "original_price": "16,500 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/dfbee8abd64add80017b44139eb621e2a40015d6388d6d5c82a6eb9621122723?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Cuisse de dinde",
+          "section": "Rôti express sahline"
+        },
+        {
+          "product_name": "Plat 1/2 poulet grillé complet",
+          "product_price": "15,400 D",
+          "original_price": "15,400 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/7506e874df37d821171c034b1be215eda6828f2008779ff83a3c6bf122b1c7d8?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "1/2 Poulet grillé, frite, salade laitue, tomate, harissa, mayonnaise, garniture au choix, pain",
+          "section": "Rôti express sahline"
+        },
+        {
+          "product_name": "Plat 1/2 poulet rôtie complet",
+          "product_price": "15,400 D",
+          "original_price": "15,400 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/7506e874df37d821171c034b1be215eda6828f2008779ff83a3c6bf122b1c7d8?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "1/2 Poulet rôtie, frite, salade laitue, tomate, harissa, mayonnaise, garniture au choix, pain",
+          "section": "Rôti express sahline"
+        },
+        {
+          "product_name": "Plat 1/2 poulet grillé sec",
+          "product_price": "11,000 D",
+          "original_price": "11,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/f60f52b566673fa98f5296beb7ad9fe5799e0948a76ecd51626c0ce35bd72759?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "1/2 Poulet grillé",
+          "section": "Rôti express sahline"
+        },
+        {
+          "product_name": "Plat 1/2 poulet rôti sec",
+          "product_price": "9,500 D",
+          "original_price": "9,500 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/f60f52b566673fa98f5296beb7ad9fe5799e0948a76ecd51626c0ce35bd72759?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "1/2 Poulet rôti",
+          "section": "Rôti express sahline"
+        },
+        {
+          "product_name": "Plat 1/4 poulet grillé complet",
+          "product_price": "8,500 D",
+          "original_price": "8,500 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/20f58ef1dd657bfa57f83f33c46e8f5f56aa9f1696ff874739efb8f96a2c15ea?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "1/4 Poulet grillé, frite, salade laitue, tomate, harissa, mayonnaise, garniture au choix, pain",
+          "section": "Rôti express sahline"
+        },
+        {
+          "product_name": "Plat 1/4 poulet rôtie complet",
+          "product_price": "8,500 D",
+          "original_price": "8,500 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/65e0c2ff72c690612eedf2c0273984f0b492b306821138426e2a4577303da747?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "1/4 Poulet rôtie, frite, salade laitue, tomate, harissa, mayonnaise, garniture au choix, pain",
+          "section": "Rôti express sahline"
+        },
+        {
+          "product_name": "Plat caille",
+          "product_price": "8,000 D",
+          "original_price": "8,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/5ea3390dc9862cf107edb18282355961e346d784d7c1f30fd80c953b1376f0a5?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Frite, salade laitue tomate, harissa, mayonnaise, garniture au choix, pain, plat caille",
+          "section": "Rôti express sahline"
+        },
+        {
+          "product_name": "Plat caille grillé sec",
+          "product_price": "5,000 D",
+          "original_price": "5,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/4a95cb0383820defadcddb7f73969147b2ed544ed3bee33aa9dc54589d56e6de?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Caille grillé",
+          "section": "Rôti express sahline"
+        },
+        {
+          "product_name": "Plat caille rôtie sec",
+          "product_price": "5,000 D",
+          "original_price": "5,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/4a95cb0383820defadcddb7f73969147b2ed544ed3bee33aa9dc54589d56e6de?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Caille rôtie",
+          "section": "Rôti express sahline"
+        },
+        {
+          "product_name": "Plat lapin grillé complet",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/e839c25a38b691957af5a81ac212e62c33d168d015053c0637a66ce76b306d24?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Lapin grillé complet, frite, salade laitue, tomate, harissa, mayonnaise, garniture au choix, pain",
+          "section": "Rôti express sahline"
+        },
+        {
+          "product_name": "Plat poulet grillé complet",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/ab05e4f238fcdeb1f50bd397687c0eca14732b79f636f52f109022853f6a4d62?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Poulet grillé, frite, salade laitue, tomate, harissa, mayonnaise, pain, garniture au choix",
+          "section": "Rôti express sahline"
+        },
+        {
+          "product_name": "Plat poulet rôtie complet",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/caeac5e6c6392da22fa30d9ac95b7c0ef257be910d4060396e33463af39e65ff?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Poulet rôtie, frite, salade laitue, tomate, harissa, mayonnaise, garniture au choix, pain",
+          "section": "Rôti express sahline"
+        },
+        {
+          "product_name": "Plat poulet grillé sec",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/26628f7ac822d238164675287a54b7aeaef1d24a34dd8b8e8788cff4a5c0ad7b?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Poulet grillé",
+          "section": "Rôti express sahline"
+        },
+        {
+          "product_name": "Plat lapin grillé sec",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/34bf9ddcde5e7f86d0c1461cacc6af88ffd65319beb7b00df22b6a7362ee3d2d?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Lapin grillé sec",
+          "section": "Rôti express sahline"
+        },
+        {
+          "product_name": "Plat poulet rôtie sec",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/fa00e4609090b0648618a962ed0830c25c9dbfd94bbb7d3832e72a116ac8304f?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Poulet rôtie",
+          "section": "Rôti express sahline"
+        },
+        {
+          "product_name": "Plat cuisse de dinde sec",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/dfbee8abd64add80017b44139eb621e2a40015d6388d6d5c82a6eb9621122723?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Cuisse de dinde",
+          "section": "Rôti express sahline"
+        },
+        {
+          "product_name": "Plat 1/2 poulet grillé complet",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/7506e874df37d821171c034b1be215eda6828f2008779ff83a3c6bf122b1c7d8?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "1/2 Poulet grillé, frite, salade laitue, tomate, harissa, mayonnaise, garniture au choix, pain",
+          "section": "Rôti express sahline"
+        },
+        {
+          "product_name": "Plat 1/2 poulet rôtie complet",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/7506e874df37d821171c034b1be215eda6828f2008779ff83a3c6bf122b1c7d8?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "1/2 Poulet rôtie, frite, salade laitue, tomate, harissa, mayonnaise, garniture au choix, pain",
+          "section": "Rôti express sahline"
+        },
+        {
+          "product_name": "Plat 1/2 poulet grillé sec",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/f60f52b566673fa98f5296beb7ad9fe5799e0948a76ecd51626c0ce35bd72759?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "1/2 Poulet grillé",
+          "section": "Rôti express sahline"
+        },
+        {
+          "product_name": "Plat 1/2 poulet rôti sec",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/f60f52b566673fa98f5296beb7ad9fe5799e0948a76ecd51626c0ce35bd72759?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "1/2 Poulet rôti",
+          "section": "Rôti express sahline"
+        },
+        {
+          "product_name": "Plat 1/4 poulet grillé complet",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/20f58ef1dd657bfa57f83f33c46e8f5f56aa9f1696ff874739efb8f96a2c15ea?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "1/4 Poulet grillé, frite, salade laitue, tomate, harissa, mayonnaise, garniture au choix, pain",
+          "section": "Rôti express sahline"
+        },
+        {
+          "product_name": "Plat 1/4 poulet rôtie complet",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/65e0c2ff72c690612eedf2c0273984f0b492b306821138426e2a4577303da747?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "1/4 Poulet rôtie, frite, salade laitue, tomate, harissa, mayonnaise, garniture au choix, pain",
+          "section": "Rôti express sahline"
+        },
+        {
+          "product_name": "Plat caille",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/5ea3390dc9862cf107edb18282355961e346d784d7c1f30fd80c953b1376f0a5?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Frite, salade laitue tomate, harissa, mayonnaise, garniture au choix, pain, plat caille",
+          "section": "Rôti express sahline"
+        },
+        {
+          "product_name": "Plat caille grillé sec",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/4a95cb0383820defadcddb7f73969147b2ed544ed3bee33aa9dc54589d56e6de?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Caille grillé",
+          "section": "Rôti express sahline"
+        },
+        {
+          "product_name": "Plat caille rôtie sec",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/4a95cb0383820defadcddb7f73969147b2ed544ed3bee33aa9dc54589d56e6de?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Caille rôtie",
+          "section": "Rôti express sahline"
+        },
+        {
+          "product_name": "Plat lapin grillé complet",
+          "product_price": "38,500 D",
+          "original_price": "38,500 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/e839c25a38b691957af5a81ac212e62c33d168d015053c0637a66ce76b306d24?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Lapin grillé complet, frite, salade laitue, tomate, harissa, mayonnaise, garniture au choix, pain",
+          "section": "Nos Plats"
+        },
+        {
+          "product_name": "Plat poulet grillé complet",
+          "product_price": "26,400 D",
+          "original_price": "26,400 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/ab05e4f238fcdeb1f50bd397687c0eca14732b79f636f52f109022853f6a4d62?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Poulet grillé, frite, salade laitue, tomate, harissa, mayonnaise, pain, garniture au choix",
+          "section": "Nos Plats"
+        },
+        {
+          "product_name": "Plat poulet rôtie complet",
+          "product_price": "22,100 D",
+          "original_price": "22,100 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/caeac5e6c6392da22fa30d9ac95b7c0ef257be910d4060396e33463af39e65ff?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Poulet rôtie, frite, salade laitue, tomate, harissa, mayonnaise, garniture au choix, pain",
+          "section": "Nos Plats"
+        },
+        {
+          "product_name": "Plat poulet grillé sec",
+          "product_price": "21,000 D",
+          "original_price": "21,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/26628f7ac822d238164675287a54b7aeaef1d24a34dd8b8e8788cff4a5c0ad7b?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Poulet grillé",
+          "section": "Nos Plats"
+        },
+        {
+          "product_name": "Plat lapin grillé sec",
+          "product_price": "18,000 D",
+          "original_price": "18,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/34bf9ddcde5e7f86d0c1461cacc6af88ffd65319beb7b00df22b6a7362ee3d2d?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Lapin grillé sec",
+          "section": "Nos Plats"
+        },
+        {
+          "product_name": "Plat poulet rôtie sec",
+          "product_price": "17,600 D",
+          "original_price": "17,600 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/fa00e4609090b0648618a962ed0830c25c9dbfd94bbb7d3832e72a116ac8304f?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Poulet rôtie",
+          "section": "Nos Plats"
+        },
+        {
+          "product_name": "Plat cuisse de dinde sec",
+          "product_price": "16,500 D",
+          "original_price": "16,500 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/dfbee8abd64add80017b44139eb621e2a40015d6388d6d5c82a6eb9621122723?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Cuisse de dinde",
+          "section": "Nos Plats"
+        },
+        {
+          "product_name": "Plat 1/2 poulet grillé complet",
+          "product_price": "15,400 D",
+          "original_price": "15,400 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/7506e874df37d821171c034b1be215eda6828f2008779ff83a3c6bf122b1c7d8?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "1/2 Poulet grillé, frite, salade laitue, tomate, harissa, mayonnaise, garniture au choix, pain",
+          "section": "Nos Plats"
+        },
+        {
+          "product_name": "Plat 1/2 poulet rôtie complet",
+          "product_price": "15,400 D",
+          "original_price": "15,400 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/7506e874df37d821171c034b1be215eda6828f2008779ff83a3c6bf122b1c7d8?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "1/2 Poulet rôtie, frite, salade laitue, tomate, harissa, mayonnaise, garniture au choix, pain",
+          "section": "Nos Plats"
+        },
+        {
+          "product_name": "Plat 1/2 poulet grillé sec",
+          "product_price": "11,000 D",
+          "original_price": "11,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/f60f52b566673fa98f5296beb7ad9fe5799e0948a76ecd51626c0ce35bd72759?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "1/2 Poulet grillé",
+          "section": "Nos Plats"
+        },
+        {
+          "product_name": "Plat 1/2 poulet rôti sec",
+          "product_price": "9,500 D",
+          "original_price": "9,500 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/f60f52b566673fa98f5296beb7ad9fe5799e0948a76ecd51626c0ce35bd72759?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "1/2 Poulet rôti",
+          "section": "Nos Plats"
+        },
+        {
+          "product_name": "Plat 1/4 poulet grillé complet",
+          "product_price": "8,500 D",
+          "original_price": "8,500 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/20f58ef1dd657bfa57f83f33c46e8f5f56aa9f1696ff874739efb8f96a2c15ea?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "1/4 Poulet grillé, frite, salade laitue, tomate, harissa, mayonnaise, garniture au choix, pain",
+          "section": "Nos Plats"
+        },
+        {
+          "product_name": "Plat 1/4 poulet rôtie complet",
+          "product_price": "8,500 D",
+          "original_price": "8,500 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/65e0c2ff72c690612eedf2c0273984f0b492b306821138426e2a4577303da747?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "1/4 Poulet rôtie, frite, salade laitue, tomate, harissa, mayonnaise, garniture au choix, pain",
+          "section": "Nos Plats"
+        },
+        {
+          "product_name": "Plat caille",
+          "product_price": "8,000 D",
+          "original_price": "8,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/5ea3390dc9862cf107edb18282355961e346d784d7c1f30fd80c953b1376f0a5?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Frite, salade laitue tomate, harissa, mayonnaise, garniture au choix, pain, plat caille",
+          "section": "Nos Plats"
+        },
+        {
+          "product_name": "Plat caille grillé sec",
+          "product_price": "5,000 D",
+          "original_price": "5,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/4a95cb0383820defadcddb7f73969147b2ed544ed3bee33aa9dc54589d56e6de?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Caille grillé",
+          "section": "Nos Plats"
+        },
+        {
+          "product_name": "Plat caille rôtie sec",
+          "product_price": "5,000 D",
+          "original_price": "5,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/4a95cb0383820defadcddb7f73969147b2ed544ed3bee33aa9dc54589d56e6de?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Caille rôtie",
+          "section": "Nos Plats"
+        },
+        {
+          "product_name": "Plat lapin grillé complet",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/e839c25a38b691957af5a81ac212e62c33d168d015053c0637a66ce76b306d24?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Lapin grillé complet, frite, salade laitue, tomate, harissa, mayonnaise, garniture au choix, pain",
+          "section": "Nos Plats"
+        },
+        {
+          "product_name": "Plat poulet grillé complet",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/ab05e4f238fcdeb1f50bd397687c0eca14732b79f636f52f109022853f6a4d62?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Poulet grillé, frite, salade laitue, tomate, harissa, mayonnaise, pain, garniture au choix",
+          "section": "Nos Plats"
+        },
+        {
+          "product_name": "Plat poulet rôtie complet",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/caeac5e6c6392da22fa30d9ac95b7c0ef257be910d4060396e33463af39e65ff?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Poulet rôtie, frite, salade laitue, tomate, harissa, mayonnaise, garniture au choix, pain",
+          "section": "Nos Plats"
+        },
+        {
+          "product_name": "Plat poulet grillé sec",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/26628f7ac822d238164675287a54b7aeaef1d24a34dd8b8e8788cff4a5c0ad7b?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Poulet grillé",
+          "section": "Nos Plats"
+        },
+        {
+          "product_name": "Plat lapin grillé sec",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/34bf9ddcde5e7f86d0c1461cacc6af88ffd65319beb7b00df22b6a7362ee3d2d?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Lapin grillé sec",
+          "section": "Nos Plats"
+        },
+        {
+          "product_name": "Plat poulet rôtie sec",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/fa00e4609090b0648618a962ed0830c25c9dbfd94bbb7d3832e72a116ac8304f?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Poulet rôtie",
+          "section": "Nos Plats"
+        },
+        {
+          "product_name": "Plat cuisse de dinde sec",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/dfbee8abd64add80017b44139eb621e2a40015d6388d6d5c82a6eb9621122723?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Cuisse de dinde",
+          "section": "Nos Plats"
+        },
+        {
+          "product_name": "Plat 1/2 poulet grillé complet",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/7506e874df37d821171c034b1be215eda6828f2008779ff83a3c6bf122b1c7d8?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "1/2 Poulet grillé, frite, salade laitue, tomate, harissa, mayonnaise, garniture au choix, pain",
+          "section": "Nos Plats"
+        },
+        {
+          "product_name": "Plat 1/2 poulet rôtie complet",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/7506e874df37d821171c034b1be215eda6828f2008779ff83a3c6bf122b1c7d8?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "1/2 Poulet rôtie, frite, salade laitue, tomate, harissa, mayonnaise, garniture au choix, pain",
+          "section": "Nos Plats"
+        },
+        {
+          "product_name": "Plat 1/2 poulet grillé sec",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/f60f52b566673fa98f5296beb7ad9fe5799e0948a76ecd51626c0ce35bd72759?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "1/2 Poulet grillé",
+          "section": "Nos Plats"
+        },
+        {
+          "product_name": "Plat 1/2 poulet rôti sec",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/f60f52b566673fa98f5296beb7ad9fe5799e0948a76ecd51626c0ce35bd72759?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "1/2 Poulet rôti",
+          "section": "Nos Plats"
+        },
+        {
+          "product_name": "Plat 1/4 poulet grillé complet",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/20f58ef1dd657bfa57f83f33c46e8f5f56aa9f1696ff874739efb8f96a2c15ea?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "1/4 Poulet grillé, frite, salade laitue, tomate, harissa, mayonnaise, garniture au choix, pain",
+          "section": "Nos Plats"
+        },
+        {
+          "product_name": "Plat 1/4 poulet rôtie complet",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/65e0c2ff72c690612eedf2c0273984f0b492b306821138426e2a4577303da747?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "1/4 Poulet rôtie, frite, salade laitue, tomate, harissa, mayonnaise, garniture au choix, pain",
+          "section": "Nos Plats"
+        },
+        {
+          "product_name": "Plat caille",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/5ea3390dc9862cf107edb18282355961e346d784d7c1f30fd80c953b1376f0a5?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Frite, salade laitue tomate, harissa, mayonnaise, garniture au choix, pain, plat caille",
+          "section": "Nos Plats"
+        },
+        {
+          "product_name": "Plat caille grillé sec",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/4a95cb0383820defadcddb7f73969147b2ed544ed3bee33aa9dc54589d56e6de?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Caille grillé",
+          "section": "Nos Plats"
+        },
+        {
+          "product_name": "Plat caille rôtie sec",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/4a95cb0383820defadcddb7f73969147b2ed544ed3bee33aa9dc54589d56e6de?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Caille rôtie",
+          "section": "Nos Plats"
+        }
+      ]
+    },
+    {
+      "category_name": "Biscuits Prestige",
+      "category_url": "https://glovoapp.com/tn/en/monastir/biscuits-prestige-mst",
+      "image": "https://glovo.dhmedia.io/image/stores-glovo/stores/b90c6747da62f1c527a41a65096f6652a1fa3bac77e3b43a724ee8da24bdac93?t=W3sicmVzaXplIjp7IndpZHRoIjo1NTB9fSx7IndlYnAiOnt9fV0=",
+      "delivery_fee": "N/A",
+      "delivery_time": "N/A",
+      "rating": "N/A",
+      "number_of_reviews": "N/A",
+      "promotion": "N/A",
+      "products": []
+    }
+  ]
+}

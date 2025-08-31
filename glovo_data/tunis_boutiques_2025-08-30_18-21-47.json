@@ -1,0 +1,1189 @@
+{
+  "scraping_date": "2025-08-31T09:47:39.508096",
+  "city": "tunis",
+  "category_type": "boutiques",
+  "url": "https://glovoapp.com/en/tn/tunis/categories/boutiques_22",
+  "page_title": "Glovo",
+  "raw_text": "",
+  "data": [
+    {
+      "category_name": "P comme Para",
+      "category_url": "https://glovoapp.com/tn/en/tunis/p-comme-para-tis",
+      "image": "https://glovo.dhmedia.io/image/stores-glovo/stores/c38e2a91f4545a086cf779826c48d58dc2f0e34b8a0d9cd1f15b3533f69ba4e8?t=W3sicmVzaXplIjp7IndpZHRoIjo1NTB9fSx7IndlYnAiOnt9fV0=",
+      "delivery_fee": "3,500 D",
+      "delivery_time": "N/A",
+      "rating": "88%",
+      "number_of_reviews": "47",
+      "promotion": "88%",
+      "products": []
+    },
+    {
+      "category_name": "Zanimo",
+      "category_url": "https://glovoapp.com/tn/en/tunis/zanimo-tis",
+      "image": "https://glovo.dhmedia.io/image/stores-glovo/stores/45752005c7ec497771cbe0c725192b91686bacf53cf522656fac7584b01f1ca4?t=W3sicmVzaXplIjp7IndpZHRoIjo1NTB9fSx7IndlYnAiOnt9fV0=",
+      "delivery_fee": "3,000 D",
+      "delivery_time": "N/A",
+      "rating": "99%",
+      "number_of_reviews": "107",
+      "promotion": "99%",
+      "products": [
+        {
+          "product_name": "Lit",
+          "product_price": "28,600 D",
+          "original_price": "28,600 D",
+          "product_image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/aa/270a8011-b83b-4887-9f8b-ac2e3be229cc.jpeg?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoxNTAsImhlaWdodCI6MTUwfX1d",
+          "promotion": "N/A",
+          "description": "LIT SANICAT DUO 10 L",
+          "section": "Zanimo"
+        },
+        {
+          "product_name": "Lit",
+          "product_price": "25,000 D",
+          "original_price": "25,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/aa/756e3fbc-56fb-4125-ab34-08b021d1c430.jpeg?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoxNTAsImhlaWdodCI6MTUwfX1d",
+          "promotion": "N/A",
+          "description": "LIT SANICAT CLASSIC OXYGEN 10L",
+          "section": "Zanimo"
+        },
+        {
+          "product_name": "Lit",
+          "product_price": "17,400 D",
+          "original_price": "17,400 D",
+          "product_image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/aa/4838f918-7017-4db8-bb42-3e4adb7ab4fc.jpg?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoxNTAsImhlaWdodCI6MTUwfX1d",
+          "promotion": "N/A",
+          "description": "LIT ZANILOVE CLASSIC 10L",
+          "section": "Zanimo"
+        },
+        {
+          "product_name": "Ownat",
+          "product_price": "36,000 D",
+          "original_price": "36,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/aa/434cb160-5abe-49e1-a784-192ea999a56b.jpg?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoxNTAsImhlaWdodCI6MTUwfX1d",
+          "promotion": "N/A",
+          "description": "OWNAT CHAT STERILIZED 1,5 KG",
+          "section": "Zanimo"
+        },
+        {
+          "product_name": "Catsway",
+          "product_price": "25,000 D",
+          "original_price": "25,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/aa/9df9f7e8-c867-4d32-a864-841f59ee18a7.jpg?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoxNTAsImhlaWdodCI6MTUwfX1d",
+          "promotion": "N/A",
+          "description": "CATSWAY 10L BABY POWDER",
+          "section": "Zanimo"
+        }
+      ]
+    },
+    {
+      "category_name": "Librairie L'Élite",
+      "category_url": "https://glovoapp.com/tn/en/tunis/librairie-lelite-tis",
+      "image": "https://glovo.dhmedia.io/image/stores-glovo/stores/1d1239138cdaedf58fbc928c8aaa00139bf2b6855bd90508729f790eca257144?t=W3sicmVzaXplIjp7IndpZHRoIjo1NTB9fSx7IndlYnAiOnt9fV0=",
+      "delivery_fee": "1,500 D",
+      "delivery_time": "N/A",
+      "rating": "50%",
+      "number_of_reviews": "13",
+      "promotion": "-50% some itemsLibrairie L'Élite1,500 DT90%",
+      "products": [
+        {
+          "product_name": "50%",
+          "product_price": "109,000 D",
+          "original_price": "219,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/aa/a57c0666-90af-4919-b038-033685717c96.png?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoxNTAsImhlaWdodCI6MTUwfX1d",
+          "promotion": "-50%",
+          "description": "Bx24118-sb01-xl-streetracer - Tre",
+          "section": "Librairie L'Élite"
+        },
+        {
+          "product_name": "50%",
+          "product_price": "59,800 D",
+          "original_price": "119,600 D",
+          "product_image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/aa/cc310b6b-7c18-4faa-9307-63d5fcb965b4.jpg?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoxNTAsImhlaWdodCI6MTUwfX1d",
+          "promotion": "-50%",
+          "description": "Uzspace Twb-6044 1500ml Purple - 331",
+          "section": "Librairie L'Élite"
+        }
+      ]
+    },
+    {
+      "category_name": "Fleur de Lys Elmanar 2",
+      "category_url": "https://glovoapp.com/tn/en/tunis/fleur-de-lys-elmanar2-tis",
+      "image": "https://glovo.dhmedia.io/image/stores-glovo/stores/2aadab71e77c339f85ab88886f9a86dfe73e3375bdaababbc99e3be5d6870b51?t=W3sicmVzaXplIjp7IndpZHRoIjo1NTB9fSx7IndlYnAiOnt9fV0=",
+      "delivery_fee": "23,000 D",
+      "delivery_time": "N/A",
+      "rating": "90%",
+      "number_of_reviews": "76",
+      "promotion": "90%",
+      "products": [
+        {
+          "product_name": "Palette",
+          "product_price": "65,000 D",
+          "original_price": "65,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/9a471faee7d6795ba03bd97adbad09b9883f49f86150b040c757245d66f988bf?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoxNTAsImhlaWdodCI6MTUwfX1d",
+          "promotion": "N/A",
+          "description": "Palette De Pétales",
+          "section": "Fleur de Lys Elmanar 2"
+        },
+        {
+          "product_name": "Bouquet brume légère",
+          "product_price": "70,000 D",
+          "original_price": "70,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/0233f2428d502df8a4c86507157aff913368aa4e9fe29707344b778e29a07eb0?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoxNTAsImhlaWdodCI6MTUwfX1d",
+          "promotion": "N/A",
+          "description": "Bouquet Brume Légère",
+          "section": "Fleur de Lys Elmanar 2"
+        },
+        {
+          "product_name": "Variété en bouquet",
+          "product_price": "55,000 D",
+          "original_price": "55,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/5343442b1bfe4ac9513f496a0fdda64af1ca235093fef7495b76dc0049118b23?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoxNTAsImhlaWdodCI6MTUwfX1d",
+          "promotion": "N/A",
+          "description": "Variété En Bouquet",
+          "section": "Fleur de Lys Elmanar 2"
+        }
+      ]
+    },
+    {
+      "category_name": "My Pet's",
+      "category_url": "https://glovoapp.com/tn/en/tunis/my-pets-tis",
+      "image": "https://glovo.dhmedia.io/image/stores-glovo/stores/2318a4aadda3b88d4a0b22fb4f2cedf291ab7ba0b4f7eefdfacf26d79803af61?t=W3sicmVzaXplIjp7IndpZHRoIjo1NTB9fSx7IndlYnAiOnt9fV0=",
+      "delivery_fee": "4,000 D",
+      "delivery_time": "N/A",
+      "rating": "100%",
+      "number_of_reviews": "59",
+      "promotion": "100%",
+      "products": [
+        {
+          "product_name": "Monello",
+          "product_price": "25,000 D",
+          "original_price": "25,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/aa/ffd5e6cd-db9a-44f8-b404-82da0cfeb068.jpeg?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoxNTAsImhlaWdodCI6MTUwfX1d",
+          "promotion": "N/A",
+          "description": "Monello Sterilized Adult Cats Turkey And Salmon 1kg",
+          "section": "My Pet's"
+        },
+        {
+          "product_name": "Brit premium by nature adulte l au poulet",
+          "product_price": "175,000 D",
+          "original_price": "175,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/aa/eca3d9d3-ffd8-4979-9c81-1ed7f4dc64c3.jpeg?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoxNTAsImhlaWdodCI6MTUwfX1d",
+          "promotion": "N/A",
+          "description": "Brit Premium By Nature Adulte L Au Poulet 15 Kg",
+          "section": "My Pet's"
+        }
+      ]
+    },
+    {
+      "category_name": "Hasnaoui Fleurs",
+      "category_url": "https://glovoapp.com/tn/en/tunis/hasnaoui-tis",
+      "image": "https://glovo.dhmedia.io/image/stores-glovo/stores/364d191adb89e1824e8183e34554264b968172d9611dfd73a5e6dfe23c7b69d4?t=W3sicmVzaXplIjp7IndpZHRoIjo1NTB9fSx7IndlYnAiOnt9fV0=",
+      "delivery_fee": "1,000 D",
+      "delivery_time": "N/A",
+      "rating": "95%",
+      "number_of_reviews": "56",
+      "promotion": "95%",
+      "products": [
+        {
+          "product_name": "Coffret merveille",
+          "product_price": "50,000 D",
+          "original_price": "50,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/ee48fbf4b69a8103d2ecc44ee6d64ed7d7be9c6ee99a1f60c2aa5e15501ed697?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoxNTAsImhlaWdodCI6MTUwfX1d",
+          "promotion": "Promotion",
+          "description": "Coffret Merveille",
+          "section": "Hasnaoui Fleurs"
+        }
+      ]
+    },
+    {
+      "category_name": "Flora",
+      "category_url": "https://glovoapp.com/tn/en/tunis/flora-tis",
+      "image": "https://glovo.dhmedia.io/image/stores-glovo/stores/2d49128e7134a1e93ade7bb0c3e01d83f05daa080765c4b260f76a7496ab361f?t=W3sicmVzaXplIjp7IndpZHRoIjo1NTB9fSx7IndlYnAiOnt9fV0=",
+      "delivery_fee": "N/A",
+      "delivery_time": "N/A",
+      "rating": "0093%",
+      "number_of_reviews": "18",
+      "promotion": "0093%",
+      "products": []
+    },
+    {
+      "category_name": "Parapharmacie.tn",
+      "category_url": "https://glovoapp.com/tn/en/tunis/parapharmacie-tn-tis",
+      "image": "https://glovo.dhmedia.io/image/stores-glovo/stores/9c895257b43edeabd6d1ff4dafaf4406455587167de4c7033f92113abdfe9a9c?t=W3sicmVzaXplIjp7IndpZHRoIjo1NTB9fSx7IndlYnAiOnt9fV0=",
+      "delivery_fee": "N/A",
+      "delivery_time": "N/A",
+      "rating": "93%",
+      "number_of_reviews": "35",
+      "promotion": "93%",
+      "products": []
+    },
+    {
+      "category_name": "Parfumerie Fekih",
+      "category_url": "https://glovoapp.com/tn/en/tunis/magasin-fekih-beauty-tis",
+      "image": "https://glovo.dhmedia.io/image/stores-glovo/stores/73771481679a07053bb51a9444dafcc3cb512db17d4628c5156041e69456194a?t=W3sicmVzaXplIjp7IndpZHRoIjo1NTB9fSx7IndlYnAiOnt9fV0=",
+      "delivery_fee": "N/A",
+      "delivery_time": "N/A",
+      "rating": "98%",
+      "number_of_reviews": "19",
+      "promotion": "98%",
+      "products": []
+    },
+    {
+      "category_name": "Xiaomi Store Tunisie",
+      "category_url": "https://glovoapp.com/tn/en/tunis/xiaomi-tis",
+      "image": "https://glovo.dhmedia.io/image/stores-glovo/stores/b989317cde5fe4b8815a424609e7458626c30ce58f5232ce32c4a29049c74d18?t=W3sicmVzaXplIjp7IndpZHRoIjo1NTB9fSx7IndlYnAiOnt9fV0=",
+      "delivery_fee": "N/A",
+      "delivery_time": "N/A",
+      "rating": "21%",
+      "number_of_reviews": "N/A",
+      "promotion": "-21% some itemsXiaomi Store TunisieSchedule for Tomorrow--",
+      "products": [
+        {
+          "product_name": "21%",
+          "product_price": "86,110 D",
+          "original_price": "109,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/aa/2ff7b9c3-b6ae-4279-8386-dfa8d659eda1.jpg?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoxNTAsImhlaWdodCI6MTUwfX1d",
+          "promotion": "-21%",
+          "description": "Bracelet Connecté Xiaomi Smart Band 9",
+          "section": "Xiaomi Store Tunisie"
+        }
+      ]
+    },
+    {
+      "category_name": "Abracadabra",
+      "category_url": "https://glovoapp.com/tn/en/tunis/abracadabra-tis",
+      "image": "https://glovo.dhmedia.io/image/stores-glovo/stores/9f115454eecb0219b17f0e9b4cea31964f2ecb4ba9c698d6323d27f87f1c006a?t=W3sicmVzaXplIjp7IndpZHRoIjo1NTB9fSx7IndlYnAiOnt9fV0=",
+      "delivery_fee": "N/A",
+      "delivery_time": "N/A",
+      "rating": "00100%",
+      "number_of_reviews": "11",
+      "promotion": "00100%",
+      "products": []
+    },
+    {
+      "category_name": "Ajejah Vape Store",
+      "category_url": "https://glovoapp.com/tn/en/tunis/ajejah-vape-store-tis",
+      "image": "https://glovo.dhmedia.io/image/stores-glovo/stores/a197532693ea834e1cbaa558abc9eced7344da6122aeeb5a4e3384e4b2e328db?t=W3sicmVzaXplIjp7IndpZHRoIjo1NTB9fSx7IndlYnAiOnt9fV0=",
+      "delivery_fee": "N/A",
+      "delivery_time": "N/A",
+      "rating": "0092%",
+      "number_of_reviews": "129",
+      "promotion": "0092%",
+      "products": [
+        {
+          "product_name": "Vozol mixed berries",
+          "product_price": "55,000 T",
+          "original_price": "55,000 T",
+          "product_image": "https://glovo.dhmedia.io/image/customer-assets-glovo/product_restriction/Blurredcontent01.png?t=W3siYXV0byI6eyJxIjoibG93In19XQ==",
+          "promotion": "-5%",
+          "description": "Vozol Mixed Berries 20K Puffs 5%",
+          "section": "Ajejah Vape Store"
+        },
+        {
+          "product_name": "Vozol mango pineapple grapefruit",
+          "product_price": "55,000 T",
+          "original_price": "55,000 T",
+          "product_image": "https://glovo.dhmedia.io/image/customer-assets-glovo/product_restriction/Blurredcontent02.png?t=W3siYXV0byI6eyJxIjoibG93In19XQ==",
+          "promotion": "-5%",
+          "description": "Vozol Mango Pineapple Grapefruit 20k Puffs 5%",
+          "section": "Ajejah Vape Store"
+        },
+        {
+          "product_name": "Vozol",
+          "product_price": "55,000 T",
+          "original_price": "55,000 T",
+          "product_image": "https://glovo.dhmedia.io/image/customer-assets-glovo/product_restriction/Blurredcontent03.png?t=W3siYXV0byI6eyJxIjoibG93In19XQ==",
+          "promotion": "N/A",
+          "description": "Vozol 20k Watermelon Ice",
+          "section": "Ajejah Vape Store"
+        },
+        {
+          "product_name": "Wotofo",
+          "product_price": "55,000 T",
+          "original_price": "55,000 T",
+          "product_image": "https://glovo.dhmedia.io/image/customer-assets-glovo/product_restriction/Blurredcontent04.png?t=W3siYXV0byI6eyJxIjoibG93In19XQ==",
+          "promotion": "N/A",
+          "description": "Wotofo 18k Mango Ice",
+          "section": "Ajejah Vape Store"
+        },
+        {
+          "product_name": "Wotofo nexbar",
+          "product_price": "50,000 T",
+          "original_price": "50,000 T",
+          "product_image": "https://glovo.dhmedia.io/image/customer-assets-glovo/product_restriction/Blurredcontent03.png?t=W3siYXV0byI6eyJxIjoibG93In19XQ==",
+          "promotion": "N/A",
+          "description": "Wotofo Nexbar 10k Dragon Fruit Berry",
+          "section": "Ajejah Vape Store"
+        }
+      ]
+    },
+    {
+      "category_name": "WIKI",
+      "category_url": "https://glovoapp.com/tn/en/tunis/wiki-tis",
+      "image": "https://glovo.dhmedia.io/image/stores-glovo/stores/0b660c7c92e9bd42a2a9966ecf348f0c81048ab3730d4be2520ffc0f08066419?t=W3sicmVzaXplIjp7IndpZHRoIjo1NTB9fSx7IndlYnAiOnt9fV0=",
+      "delivery_fee": "N/A",
+      "delivery_time": "N/A",
+      "rating": "84%",
+      "number_of_reviews": "18",
+      "promotion": "84%",
+      "products": []
+    },
+    {
+      "category_name": "Kitty City",
+      "category_url": "https://glovoapp.com/tn/en/tunis/kitty-city-tis",
+      "image": "https://glovo.dhmedia.io/image/stores-glovo/stores/9053c0bc91971d1a643b45da3f5b052a9e39730ec8a6fdc914333585cdc3ae4a?t=W3sicmVzaXplIjp7IndpZHRoIjo1NTB9fSx7IndlYnAiOnt9fV0=",
+      "delivery_fee": "N/A",
+      "delivery_time": "N/A",
+      "rating": "N/A",
+      "number_of_reviews": "N/A",
+      "promotion": "N/A",
+      "products": []
+    },
+    {
+      "category_name": "Zanimax",
+      "category_url": "https://glovoapp.com/tn/en/tunis/zanimax-tis",
+      "image": "https://glovo.dhmedia.io/image/stores-glovo/stores/fd39a5df5f5bd7781524fb9999793ea316798cc15cf3b24d6766f8bac0abdad8?t=W3sicmVzaXplIjp7IndpZHRoIjo1NTB9fSx7IndlYnAiOnt9fV0=",
+      "delivery_fee": "N/A",
+      "delivery_time": "N/A",
+      "rating": "98%",
+      "number_of_reviews": "34",
+      "promotion": "98%",
+      "products": []
+    },
+    {
+      "category_name": "ML Para",
+      "category_url": "https://glovoapp.com/tn/en/tunis/ml-para-tis",
+      "image": "https://glovo.dhmedia.io/image/stores-glovo/stores/813a90b13f348e951dac8afbb1bf3d965be40d49ae153364e4db9405e19c5266?t=W3sicmVzaXplIjp7IndpZHRoIjo1NTB9fSx7IndlYnAiOnt9fV0=",
+      "delivery_fee": "N/A",
+      "delivery_time": "N/A",
+      "rating": "100%",
+      "number_of_reviews": "12",
+      "promotion": "100%",
+      "products": []
+    },
+    {
+      "category_name": "IQOS",
+      "category_url": "https://glovoapp.com/tn/en/tunis/iqos-tus1",
+      "image": "https://glovo.dhmedia.io/image/stores-glovo/stores/bb253a85c19e29f746fbd7acb592cba267961790cf4ad02750411a993ae80a83?t=W3sicmVzaXplIjp7IndpZHRoIjo1NTB9fSx7IndlYnAiOnt9fV0=",
+      "delivery_fee": "N/A",
+      "delivery_time": "N/A",
+      "rating": "100%",
+      "number_of_reviews": "35",
+      "promotion": "100%",
+      "products": [
+        {
+          "product_name": "Kit iqos iluma rose",
+          "product_price": "122,500 T",
+          "original_price": "122,500 T",
+          "product_image": "https://glovo.dhmedia.io/image/customer-assets-glovo/product_restriction/Blurredcontent03.png?t=W3siYXV0byI6eyJxIjoibG93In19XQ==",
+          "promotion": "N/A",
+          "description": "Kit Iqos Iluma Rose",
+          "section": "IQOS"
+        }
+      ]
+    },
+    {
+      "category_name": "Guya Gang",
+      "category_url": "https://glovoapp.com/tn/en/tunis/guya-gang-manzah-tis",
+      "image": "https://glovo.dhmedia.io/image/stores-glovo/stores/07e7dbf8cb7f6ed65833523b283dcc543277b28d56ca8f09d3b436d131520738?t=W3sicmVzaXplIjp7IndpZHRoIjo1NTB9fSx7IndlYnAiOnt9fV0=",
+      "delivery_fee": "N/A",
+      "delivery_time": "N/A",
+      "rating": "N/A",
+      "number_of_reviews": "N/A",
+      "promotion": "N/A",
+      "products": [
+        {
+          "product_name": "Carnation flower candle",
+          "product_price": "23,000 D",
+          "original_price": "23,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/cc469ea62556ebe1c1ffe144b29d16f4e7ad41852d9171d7ff1e5d9ef9b2971c?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Carnation Flower Candle T",
+          "section": "Guya Gang"
+        },
+        {
+          "product_name": "Magnolia flower candle",
+          "product_price": "23,000 D",
+          "original_price": "23,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/c39abcbba311fc4dc4cdb522e872311704d74acd8101a0ca0d9920efc38801ab?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Magnolia Flower Candle T",
+          "section": "Guya Gang"
+        },
+        {
+          "product_name": "Cotton flower candle",
+          "product_price": "23,000 D",
+          "original_price": "23,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/b32883eeaba04985c207c21060d28b8fe72ffbc44e39d69714dbd8932241acd2?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Cotton Flower Candle T",
+          "section": "Guya Gang"
+        },
+        {
+          "product_name": "Orchid flower candle",
+          "product_price": "23,000 D",
+          "original_price": "23,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/7cd140191960cef8703ec5e65682f1b790a4b53a6bfe8aa507a0c7924cf4693e?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Orchid Flower Candle T",
+          "section": "Guya Gang"
+        },
+        {
+          "product_name": "Sakura flower candle",
+          "product_price": "23,000 D",
+          "original_price": "23,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/93241dfd0409b4beb5a3d1f8a83012af6de56130dbf6e15841d4f2e3cbbfec6a?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Sakura Flower Candle T",
+          "section": "Guya Gang"
+        },
+        {
+          "product_name": "Poppy flower candle",
+          "product_price": "23,000 D",
+          "original_price": "23,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/ac9438c2d257b72a153f361a55e9c6618de522aed844ad094eafc2c4027e4eed?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Poppy Flower Candle T",
+          "section": "Guya Gang"
+        },
+        {
+          "product_name": "Lilly flower candle",
+          "product_price": "23,000 D",
+          "original_price": "23,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/da8cf47280eef6f78ca31cf588ca10157b8c13ab5b74f1594724e99fea677a0f?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Lilly Flower Candle T",
+          "section": "Guya Gang"
+        },
+        {
+          "product_name": "Nag champa cone incense",
+          "product_price": "10,000 D",
+          "original_price": "10,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/bd71231128ce86e323dc1c20aebe603ca49665b8db333c5ead0192258dd95efb?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Nag Champa Cone Incense T",
+          "section": "Guya Gang"
+        },
+        {
+          "product_name": "Purify candle",
+          "product_price": "23,000 D",
+          "original_price": "23,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/9d3fd5282e0f93b2694254d2e548b840e305f4b9fbdfba30ee26dfabc426b533?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Purify Candle T",
+          "section": "Guya Gang"
+        },
+        {
+          "product_name": "Sweet spring candle",
+          "product_price": "18,000 D",
+          "original_price": "18,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/ad1a9a9d69a0ae809273a76dd6cd616d80459c8586ac5c3f6263344b98a97b25?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Sweet Spring Candle T",
+          "section": "Guya Gang"
+        },
+        {
+          "product_name": "Heal candle",
+          "product_price": "23,000 D",
+          "original_price": "23,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/2645e51c5226aaf770fd5ddce95ecf4718e4131c296d33360a0c81de904f81b5?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Heal Candle T",
+          "section": "Guya Gang"
+        },
+        {
+          "product_name": "Relief candle",
+          "product_price": "23,000 D",
+          "original_price": "23,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/67c16c9c57488321157558a7b764d3598c9f49aab2a2eaf5033355790a62ce87?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Relief Candle T",
+          "section": "Guya Gang"
+        },
+        {
+          "product_name": "Home brew candle",
+          "product_price": "18,000 D",
+          "original_price": "18,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/a6e2e185480a33d5dfa1fdbbeb8ba3baef0950028d86e18586c530ac3dcac76d?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Home Brew Candle T",
+          "section": "Guya Gang"
+        },
+        {
+          "product_name": "Golden hour candle",
+          "product_price": "18,000 D",
+          "original_price": "18,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/082095f32ff3afd0293d84c42c8bb6ebb826a7ac077a7ad9f39817fb0f712598?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Golden Hour Candle T",
+          "section": "Guya Gang"
+        },
+        {
+          "product_name": "Bloom candle",
+          "product_price": "23,000 D",
+          "original_price": "23,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/b17920ef310aa653f9fab0569c38b5dedb69d20cef84e569d936a06acc6697f0?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Bloom Candle T",
+          "section": "Guya Gang"
+        },
+        {
+          "product_name": "Grateful af candle",
+          "product_price": "28,000 D",
+          "original_price": "28,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/d6b45b125a23b7cf4e4d1e722fc45ff6b113380cd3278b672382c38c41d0b25f?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Grateful AF Candle T",
+          "section": "Guya Gang"
+        },
+        {
+          "product_name": "Namaste habibi candle",
+          "product_price": "28,000 D",
+          "original_price": "28,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/44ea02d6776e4deede007075f6f8787e5cfeccba003b57d84dc83bd4d3f347e7?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Namaste Habibi Candle T",
+          "section": "Guya Gang"
+        },
+        {
+          "product_name": "Manifestt that s!hit",
+          "product_price": "28,000 D",
+          "original_price": "28,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/49dedbd328b24da57f6658fc93ba6346e3c4ed0a26fc58162a0c991e7a6f46fe?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Manifestt That S!hit T",
+          "section": "Guya Gang"
+        },
+        {
+          "product_name": "Moon child candle",
+          "product_price": "28,000 D",
+          "original_price": "28,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/36504805b229fc4fd09a30a8f9927aa241611f75133332a56588564605a49e59?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Moon Child Candle T",
+          "section": "Guya Gang"
+        },
+        {
+          "product_name": "White sage smudge",
+          "product_price": "35,000 D",
+          "original_price": "35,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/4b35c58b8cb23065bc5351be535c1b9b2e657e811631de29845114f8122cbcf2?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "White Sage Smudge T",
+          "section": "Guya Gang"
+        },
+        {
+          "product_name": "Nag champa incense",
+          "product_price": "15,000 D",
+          "original_price": "15,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/cd9fb20bfd8885a30cc034486f038a290430c1e930bf64b846ad2ed727acd84c?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Nag Champa Incense T",
+          "section": "Guya Gang"
+        },
+        {
+          "product_name": "Palo santo stick",
+          "product_price": "20,000 D",
+          "original_price": "20,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/b16ae1234f5360422f89dce8c476613fc795aa7d2b4dea6a3b631e71e789cc24?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Palo Santo Stick T",
+          "section": "Guya Gang"
+        },
+        {
+          "product_name": "Carnation flower candle",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/cc469ea62556ebe1c1ffe144b29d16f4e7ad41852d9171d7ff1e5d9ef9b2971c?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Carnation Flower Candle",
+          "section": "Guya Gang"
+        },
+        {
+          "product_name": "Magnolia flower candle",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/c39abcbba311fc4dc4cdb522e872311704d74acd8101a0ca0d9920efc38801ab?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Magnolia Flower Candle",
+          "section": "Guya Gang"
+        },
+        {
+          "product_name": "Cotton flower candle",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/b32883eeaba04985c207c21060d28b8fe72ffbc44e39d69714dbd8932241acd2?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Cotton Flower Candle",
+          "section": "Guya Gang"
+        },
+        {
+          "product_name": "Orchid flower candle",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/7cd140191960cef8703ec5e65682f1b790a4b53a6bfe8aa507a0c7924cf4693e?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Orchid Flower Candle",
+          "section": "Guya Gang"
+        },
+        {
+          "product_name": "Sakura flower candle",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/93241dfd0409b4beb5a3d1f8a83012af6de56130dbf6e15841d4f2e3cbbfec6a?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Sakura Flower Candle",
+          "section": "Guya Gang"
+        },
+        {
+          "product_name": "Poppy flower candle",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/ac9438c2d257b72a153f361a55e9c6618de522aed844ad094eafc2c4027e4eed?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Poppy Flower Candle",
+          "section": "Guya Gang"
+        },
+        {
+          "product_name": "Lilly flower candle",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/da8cf47280eef6f78ca31cf588ca10157b8c13ab5b74f1594724e99fea677a0f?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Lilly Flower Candle",
+          "section": "Guya Gang"
+        },
+        {
+          "product_name": "Nag champa cone incense",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/bd71231128ce86e323dc1c20aebe603ca49665b8db333c5ead0192258dd95efb?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Nag Champa Cone Incense",
+          "section": "Guya Gang"
+        },
+        {
+          "product_name": "Purify candle",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/9d3fd5282e0f93b2694254d2e548b840e305f4b9fbdfba30ee26dfabc426b533?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Purify Candle",
+          "section": "Guya Gang"
+        },
+        {
+          "product_name": "Sweet spring candle",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/ad1a9a9d69a0ae809273a76dd6cd616d80459c8586ac5c3f6263344b98a97b25?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Sweet Spring Candle",
+          "section": "Guya Gang"
+        },
+        {
+          "product_name": "Heal candle",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/2645e51c5226aaf770fd5ddce95ecf4718e4131c296d33360a0c81de904f81b5?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Heal Candle",
+          "section": "Guya Gang"
+        },
+        {
+          "product_name": "Relief candle",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/67c16c9c57488321157558a7b764d3598c9f49aab2a2eaf5033355790a62ce87?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Relief Candle",
+          "section": "Guya Gang"
+        },
+        {
+          "product_name": "Home brew candle",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/a6e2e185480a33d5dfa1fdbbeb8ba3baef0950028d86e18586c530ac3dcac76d?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Home Brew Candle",
+          "section": "Guya Gang"
+        },
+        {
+          "product_name": "Golden hour candle",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/082095f32ff3afd0293d84c42c8bb6ebb826a7ac077a7ad9f39817fb0f712598?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Golden Hour Candle",
+          "section": "Guya Gang"
+        },
+        {
+          "product_name": "Bloom candle",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/b17920ef310aa653f9fab0569c38b5dedb69d20cef84e569d936a06acc6697f0?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Bloom Candle",
+          "section": "Guya Gang"
+        },
+        {
+          "product_name": "Grateful af candle",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/d6b45b125a23b7cf4e4d1e722fc45ff6b113380cd3278b672382c38c41d0b25f?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Grateful AF Candle",
+          "section": "Guya Gang"
+        },
+        {
+          "product_name": "Namaste habibi candle",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/44ea02d6776e4deede007075f6f8787e5cfeccba003b57d84dc83bd4d3f347e7?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Namaste Habibi Candle",
+          "section": "Guya Gang"
+        },
+        {
+          "product_name": "Manifestt that s!hit",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/49dedbd328b24da57f6658fc93ba6346e3c4ed0a26fc58162a0c991e7a6f46fe?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Manifestt That S!hit",
+          "section": "Guya Gang"
+        },
+        {
+          "product_name": "Moon child candle",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/36504805b229fc4fd09a30a8f9927aa241611f75133332a56588564605a49e59?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Moon Child Candle",
+          "section": "Guya Gang"
+        },
+        {
+          "product_name": "White sage smudge",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/4b35c58b8cb23065bc5351be535c1b9b2e657e811631de29845114f8122cbcf2?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "White Sage Smudge",
+          "section": "Guya Gang"
+        },
+        {
+          "product_name": "Nag champa incense",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/cd9fb20bfd8885a30cc034486f038a290430c1e930bf64b846ad2ed727acd84c?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Nag Champa Incense",
+          "section": "Guya Gang"
+        },
+        {
+          "product_name": "Palo santo stick",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/b16ae1234f5360422f89dce8c476613fc795aa7d2b4dea6a3b631e71e789cc24?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Palo Santo Stick",
+          "section": "Guya Gang"
+        },
+        {
+          "product_name": "Carnation flower candle",
+          "product_price": "23,000 D",
+          "original_price": "23,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/cc469ea62556ebe1c1ffe144b29d16f4e7ad41852d9171d7ff1e5d9ef9b2971c?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Carnation Flower Candle T",
+          "section": "Scents"
+        },
+        {
+          "product_name": "Magnolia flower candle",
+          "product_price": "23,000 D",
+          "original_price": "23,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/c39abcbba311fc4dc4cdb522e872311704d74acd8101a0ca0d9920efc38801ab?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Magnolia Flower Candle T",
+          "section": "Scents"
+        },
+        {
+          "product_name": "Cotton flower candle",
+          "product_price": "23,000 D",
+          "original_price": "23,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/b32883eeaba04985c207c21060d28b8fe72ffbc44e39d69714dbd8932241acd2?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Cotton Flower Candle T",
+          "section": "Scents"
+        },
+        {
+          "product_name": "Orchid flower candle",
+          "product_price": "23,000 D",
+          "original_price": "23,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/7cd140191960cef8703ec5e65682f1b790a4b53a6bfe8aa507a0c7924cf4693e?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Orchid Flower Candle T",
+          "section": "Scents"
+        },
+        {
+          "product_name": "Sakura flower candle",
+          "product_price": "23,000 D",
+          "original_price": "23,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/93241dfd0409b4beb5a3d1f8a83012af6de56130dbf6e15841d4f2e3cbbfec6a?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Sakura Flower Candle T",
+          "section": "Scents"
+        },
+        {
+          "product_name": "Poppy flower candle",
+          "product_price": "23,000 D",
+          "original_price": "23,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/ac9438c2d257b72a153f361a55e9c6618de522aed844ad094eafc2c4027e4eed?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Poppy Flower Candle T",
+          "section": "Scents"
+        },
+        {
+          "product_name": "Lilly flower candle",
+          "product_price": "23,000 D",
+          "original_price": "23,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/da8cf47280eef6f78ca31cf588ca10157b8c13ab5b74f1594724e99fea677a0f?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Lilly Flower Candle T",
+          "section": "Scents"
+        },
+        {
+          "product_name": "Nag champa cone incense",
+          "product_price": "10,000 D",
+          "original_price": "10,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/bd71231128ce86e323dc1c20aebe603ca49665b8db333c5ead0192258dd95efb?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Nag Champa Cone Incense T",
+          "section": "Scents"
+        },
+        {
+          "product_name": "Purify candle",
+          "product_price": "23,000 D",
+          "original_price": "23,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/9d3fd5282e0f93b2694254d2e548b840e305f4b9fbdfba30ee26dfabc426b533?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Purify Candle T",
+          "section": "Scents"
+        },
+        {
+          "product_name": "Sweet spring candle",
+          "product_price": "18,000 D",
+          "original_price": "18,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/ad1a9a9d69a0ae809273a76dd6cd616d80459c8586ac5c3f6263344b98a97b25?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Sweet Spring Candle T",
+          "section": "Scents"
+        },
+        {
+          "product_name": "Heal candle",
+          "product_price": "23,000 D",
+          "original_price": "23,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/2645e51c5226aaf770fd5ddce95ecf4718e4131c296d33360a0c81de904f81b5?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Heal Candle T",
+          "section": "Scents"
+        },
+        {
+          "product_name": "Relief candle",
+          "product_price": "23,000 D",
+          "original_price": "23,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/67c16c9c57488321157558a7b764d3598c9f49aab2a2eaf5033355790a62ce87?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Relief Candle T",
+          "section": "Scents"
+        },
+        {
+          "product_name": "Home brew candle",
+          "product_price": "18,000 D",
+          "original_price": "18,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/a6e2e185480a33d5dfa1fdbbeb8ba3baef0950028d86e18586c530ac3dcac76d?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Home Brew Candle T",
+          "section": "Scents"
+        },
+        {
+          "product_name": "Golden hour candle",
+          "product_price": "18,000 D",
+          "original_price": "18,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/082095f32ff3afd0293d84c42c8bb6ebb826a7ac077a7ad9f39817fb0f712598?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Golden Hour Candle T",
+          "section": "Scents"
+        },
+        {
+          "product_name": "Bloom candle",
+          "product_price": "23,000 D",
+          "original_price": "23,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/b17920ef310aa653f9fab0569c38b5dedb69d20cef84e569d936a06acc6697f0?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Bloom Candle T",
+          "section": "Scents"
+        },
+        {
+          "product_name": "Grateful af candle",
+          "product_price": "28,000 D",
+          "original_price": "28,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/d6b45b125a23b7cf4e4d1e722fc45ff6b113380cd3278b672382c38c41d0b25f?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Grateful AF Candle T",
+          "section": "Scents"
+        },
+        {
+          "product_name": "Namaste habibi candle",
+          "product_price": "28,000 D",
+          "original_price": "28,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/44ea02d6776e4deede007075f6f8787e5cfeccba003b57d84dc83bd4d3f347e7?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Namaste Habibi Candle T",
+          "section": "Scents"
+        },
+        {
+          "product_name": "Manifestt that s!hit",
+          "product_price": "28,000 D",
+          "original_price": "28,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/49dedbd328b24da57f6658fc93ba6346e3c4ed0a26fc58162a0c991e7a6f46fe?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Manifestt That S!hit T",
+          "section": "Scents"
+        },
+        {
+          "product_name": "Moon child candle",
+          "product_price": "28,000 D",
+          "original_price": "28,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/36504805b229fc4fd09a30a8f9927aa241611f75133332a56588564605a49e59?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Moon Child Candle T",
+          "section": "Scents"
+        },
+        {
+          "product_name": "White sage smudge",
+          "product_price": "35,000 D",
+          "original_price": "35,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/4b35c58b8cb23065bc5351be535c1b9b2e657e811631de29845114f8122cbcf2?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "White Sage Smudge T",
+          "section": "Scents"
+        },
+        {
+          "product_name": "Nag champa incense",
+          "product_price": "15,000 D",
+          "original_price": "15,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/cd9fb20bfd8885a30cc034486f038a290430c1e930bf64b846ad2ed727acd84c?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Nag Champa Incense T",
+          "section": "Scents"
+        },
+        {
+          "product_name": "Palo santo stick",
+          "product_price": "20,000 D",
+          "original_price": "20,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/b16ae1234f5360422f89dce8c476613fc795aa7d2b4dea6a3b631e71e789cc24?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Palo Santo Stick T",
+          "section": "Scents"
+        },
+        {
+          "product_name": "Carnation flower candle",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/cc469ea62556ebe1c1ffe144b29d16f4e7ad41852d9171d7ff1e5d9ef9b2971c?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Carnation Flower Candle",
+          "section": "Scents"
+        },
+        {
+          "product_name": "Magnolia flower candle",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/c39abcbba311fc4dc4cdb522e872311704d74acd8101a0ca0d9920efc38801ab?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Magnolia Flower Candle",
+          "section": "Scents"
+        },
+        {
+          "product_name": "Cotton flower candle",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/b32883eeaba04985c207c21060d28b8fe72ffbc44e39d69714dbd8932241acd2?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Cotton Flower Candle",
+          "section": "Scents"
+        },
+        {
+          "product_name": "Orchid flower candle",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/7cd140191960cef8703ec5e65682f1b790a4b53a6bfe8aa507a0c7924cf4693e?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Orchid Flower Candle",
+          "section": "Scents"
+        },
+        {
+          "product_name": "Sakura flower candle",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/93241dfd0409b4beb5a3d1f8a83012af6de56130dbf6e15841d4f2e3cbbfec6a?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Sakura Flower Candle",
+          "section": "Scents"
+        },
+        {
+          "product_name": "Poppy flower candle",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/ac9438c2d257b72a153f361a55e9c6618de522aed844ad094eafc2c4027e4eed?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Poppy Flower Candle",
+          "section": "Scents"
+        },
+        {
+          "product_name": "Lilly flower candle",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/da8cf47280eef6f78ca31cf588ca10157b8c13ab5b74f1594724e99fea677a0f?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Lilly Flower Candle",
+          "section": "Scents"
+        },
+        {
+          "product_name": "Nag champa cone incense",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/bd71231128ce86e323dc1c20aebe603ca49665b8db333c5ead0192258dd95efb?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Nag Champa Cone Incense",
+          "section": "Scents"
+        },
+        {
+          "product_name": "Purify candle",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/9d3fd5282e0f93b2694254d2e548b840e305f4b9fbdfba30ee26dfabc426b533?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Purify Candle",
+          "section": "Scents"
+        },
+        {
+          "product_name": "Sweet spring candle",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/ad1a9a9d69a0ae809273a76dd6cd616d80459c8586ac5c3f6263344b98a97b25?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Sweet Spring Candle",
+          "section": "Scents"
+        },
+        {
+          "product_name": "Heal candle",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/2645e51c5226aaf770fd5ddce95ecf4718e4131c296d33360a0c81de904f81b5?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Heal Candle",
+          "section": "Scents"
+        },
+        {
+          "product_name": "Relief candle",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/67c16c9c57488321157558a7b764d3598c9f49aab2a2eaf5033355790a62ce87?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Relief Candle",
+          "section": "Scents"
+        },
+        {
+          "product_name": "Home brew candle",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/a6e2e185480a33d5dfa1fdbbeb8ba3baef0950028d86e18586c530ac3dcac76d?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Home Brew Candle",
+          "section": "Scents"
+        },
+        {
+          "product_name": "Golden hour candle",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/082095f32ff3afd0293d84c42c8bb6ebb826a7ac077a7ad9f39817fb0f712598?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Golden Hour Candle",
+          "section": "Scents"
+        },
+        {
+          "product_name": "Bloom candle",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/b17920ef310aa653f9fab0569c38b5dedb69d20cef84e569d936a06acc6697f0?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Bloom Candle",
+          "section": "Scents"
+        },
+        {
+          "product_name": "Grateful af candle",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/d6b45b125a23b7cf4e4d1e722fc45ff6b113380cd3278b672382c38c41d0b25f?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Grateful AF Candle",
+          "section": "Scents"
+        },
+        {
+          "product_name": "Namaste habibi candle",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/44ea02d6776e4deede007075f6f8787e5cfeccba003b57d84dc83bd4d3f347e7?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Namaste Habibi Candle",
+          "section": "Scents"
+        },
+        {
+          "product_name": "Manifestt that s!hit",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/49dedbd328b24da57f6658fc93ba6346e3c4ed0a26fc58162a0c991e7a6f46fe?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Manifestt That S!hit",
+          "section": "Scents"
+        },
+        {
+          "product_name": "Moon child candle",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/36504805b229fc4fd09a30a8f9927aa241611f75133332a56588564605a49e59?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Moon Child Candle",
+          "section": "Scents"
+        },
+        {
+          "product_name": "White sage smudge",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/4b35c58b8cb23065bc5351be535c1b9b2e657e811631de29845114f8122cbcf2?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "White Sage Smudge",
+          "section": "Scents"
+        },
+        {
+          "product_name": "Nag champa incense",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/cd9fb20bfd8885a30cc034486f038a290430c1e930bf64b846ad2ed727acd84c?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Nag Champa Incense",
+          "section": "Scents"
+        },
+        {
+          "product_name": "Palo santo stick",
+          "product_price": "N/A",
+          "original_price": "N/A",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/b16ae1234f5360422f89dce8c476613fc795aa7d2b4dea6a3b631e71e789cc24?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d",
+          "promotion": "N/A",
+          "description": "Palo Santo Stick",
+          "section": "Scents"
+        }
+      ]
+    }
+  ]
+}

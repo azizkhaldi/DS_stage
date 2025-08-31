@@ -1,0 +1,141 @@
+{
+  "scraping_date": "2025-08-31T02:22:37.713448",
+  "city": "monastir",
+  "category_type": "boutiques",
+  "url": "https://glovoapp.com/en/tn/monastir/categories/boutiques_22",
+  "page_title": "Glovo",
+  "raw_text": "",
+  "data": [
+    {
+      "category_name": "Mille Et Une Fleurs",
+      "category_url": "https://glovoapp.com/tn/en/monastir/mille-et-une-fleurs-mst",
+      "image": "https://glovo.dhmedia.io/image/stores-glovo/stores/4dbc3684d6ebc3aa36066bcec27e19d19adb18e1b347f7d8e354cd8c1ac93662?t=W3sicmVzaXplIjp7IndpZHRoIjo1NTB9fSx7IndlYnAiOnt9fV0=",
+      "delivery_fee": "N/A",
+      "delivery_time": "N/A",
+      "rating": "N/A",
+      "number_of_reviews": "N/A",
+      "promotion": "N/A",
+      "products": []
+    },
+    {
+      "category_name": "Couronne De Laurier",
+      "category_url": "https://glovoapp.com/tn/en/monastir/la-couronne-de-laurier-mst",
+      "image": "https://glovo.dhmedia.io/image/stores-glovo/stores/2755e1bc47007fa5f9bda2ef804b8126f7746d8d8a8fcc58798a32e364e1c689?t=W3sicmVzaXplIjp7IndpZHRoIjo1NTB9fSx7IndlYnAiOnt9fV0=",
+      "delivery_fee": "N/A",
+      "delivery_time": "N/A",
+      "rating": "N/A",
+      "number_of_reviews": "N/A",
+      "promotion": "N/A",
+      "products": [
+        {
+          "product_name": "Sunshine",
+          "product_price": "150,000 D",
+          "original_price": "150,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/df7b4556e8924184153233b30269487cf8210f1226e82039c1151a226ec5b690?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoxNTAsImhlaWdodCI6MTUwfX1d",
+          "promotion": "N/A",
+          "description": "Sunshine",
+          "section": "Couronne De Laurier"
+        },
+        {
+          "product_name": "Pinko love",
+          "product_price": "150,000 D",
+          "original_price": "150,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/dd0e9d4820735030ee028cc62e800408ab47447572288bf65ec5c3fa7192e16c?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoxNTAsImhlaWdodCI6MTUwfX1d",
+          "promotion": "N/A",
+          "description": "Pinko love",
+          "section": "Couronne De Laurier"
+        },
+        {
+          "product_name": "Light purple roses",
+          "product_price": "70,000 D",
+          "original_price": "70,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/6ab3ded24a17916460e95b726a9118fec441a5b961f27d2a2608d09b4b86789d?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoxNTAsImhlaWdodCI6MTUwfX1d",
+          "promotion": "N/A",
+          "description": "Light purple roses",
+          "section": "Couronne De Laurier"
+        },
+        {
+          "product_name": "Queen bee roses",
+          "product_price": "60,000 D",
+          "original_price": "60,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/e7cf9cc10e33af7de81f002fa880c62745203232e0d90f74815548e40e58402d?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoxNTAsImhlaWdodCI6MTUwfX1d",
+          "promotion": "N/A",
+          "description": "Queen bee roses",
+          "section": "Couronne De Laurier"
+        },
+        {
+          "product_name": "Box peluche",
+          "product_price": "150,000 D",
+          "original_price": "150,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/254d8f2d8cafd50401f76c77129d9c1655798b59cda5e0342e468b03f29985c8?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoxNTAsImhlaWdodCI6MTUwfX1d",
+          "promotion": "N/A",
+          "description": "Box peluche",
+          "section": "Couronne De Laurier"
+        },
+        {
+          "product_name": "Blue sky",
+          "product_price": "250,000 D",
+          "original_price": "250,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/c87b96f38879bac5f66abcb79e6f2a310b8fab5fbf75eda8b49ebd69ed658eae?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoxNTAsImhlaWdodCI6MTUwfX1d",
+          "promotion": "N/A",
+          "description": "Blue sky",
+          "section": "Couronne De Laurier"
+        },
+        {
+          "product_name": "Rainbow flower box",
+          "product_price": "140,000 D",
+          "original_price": "140,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/8303d8be244d24a33be6a3851815b8d2603d2edf5226f413098310eb2dd79375?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoxNTAsImhlaWdodCI6MTUwfX1d",
+          "promotion": "N/A",
+          "description": "Rainbow flower box",
+          "section": "Couronne De Laurier"
+        },
+        {
+          "product_name": "Happy day bouquet",
+          "product_price": "120,000 D",
+          "original_price": "120,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/1a389773b5b95d68731ab0420eac0f5c6839d9469221eb25ef037e17ea854b21?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoxNTAsImhlaWdodCI6MTUwfX1d",
+          "promotion": "N/A",
+          "description": "Happy day bouquet",
+          "section": "Couronne De Laurier"
+        },
+        {
+          "product_name": "Butterfly flower bag",
+          "product_price": "70,000 D",
+          "original_price": "70,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/712eea6f9cc3eae02a5659566100757421cab7d4f1320367c501f858711597c4?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoxNTAsImhlaWdodCI6MTUwfX1d",
+          "promotion": "N/A",
+          "description": "Butterfly flower bag",
+          "section": "Couronne De Laurier"
+        },
+        {
+          "product_name": "Red angel",
+          "product_price": "120,000 D",
+          "original_price": "120,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/7c26402fd77dccbc9ee051afc571709f832ea886831bbfc364d84bebebf31857?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoxNTAsImhlaWdodCI6MTUwfX1d",
+          "promotion": "N/A",
+          "description": "Red Angel",
+          "section": "Couronne De Laurier"
+        },
+        {
+          "product_name": "Black & white",
+          "product_price": "100,000 D",
+          "original_price": "100,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/5aa422a435eeea6bd8b2c92b928759cef664a65a59c88a0f5457efffa055e4e1?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoxNTAsImhlaWdodCI6MTUwfX1d",
+          "promotion": "N/A",
+          "description": "Black & white",
+          "section": "Couronne De Laurier"
+        },
+        {
+          "product_name": "Black star",
+          "product_price": "150,000 D",
+          "original_price": "150,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/b319f3031906ef1232e0da2f53324919f9a651ab623b514564dfa95753703969?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoxNTAsImhlaWdodCI6MTUwfX1d",
+          "promotion": "N/A",
+          "description": "Black star",
+          "section": "Couronne De Laurier"
+        }
+      ]
+    }
+  ]
+}

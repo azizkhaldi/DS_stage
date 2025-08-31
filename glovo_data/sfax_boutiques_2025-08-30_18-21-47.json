@@ -1,0 +1,86 @@
+{
+  "scraping_date": "2025-08-31T00:47:43.904051",
+  "city": "sfax",
+  "category_type": "boutiques",
+  "url": "https://glovoapp.com/en/tn/sfax/categories/boutiques_22",
+  "page_title": "Glovo",
+  "raw_text": "",
+  "data": [
+    {
+      "category_name": "Lamasset El Ward",
+      "category_url": "https://glovoapp.com/tn/en/sfax/lamasset-el-ward-sfx",
+      "image": "https://glovo.dhmedia.io/image/stores-glovo/stores/acd033263e758cfeb71ed31f7e7ffb4560728256a8d18b192cf36a6b3ac985d3?t=W3sicmVzaXplIjp7IndpZHRoIjo1NTB9fSx7IndlYnAiOnt9fV0=",
+      "delivery_fee": "N/A",
+      "delivery_time": "N/A",
+      "rating": "97%",
+      "number_of_reviews": "16",
+      "promotion": "97%",
+      "products": [
+        {
+          "product_name": "Bouquet harmonie florale",
+          "product_price": "78,000 D",
+          "original_price": "78,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/menus-glovo/products/fae904dea5fbcbe7427c0430df910626f8f45027dfe1654ccee3ba30d6554ed7?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoxNTAsImhlaWdodCI6MTUwfX1d",
+          "promotion": "N/A",
+          "description": "Bouquet Harmonie Florale",
+          "section": "Lamasset El Ward"
+        }
+      ]
+    },
+    {
+      "category_name": "L'art des Fleurs",
+      "category_url": "https://glovoapp.com/tn/en/sfax/lart-des-fleurs-sfx",
+      "image": "https://glovo.dhmedia.io/image/stores-glovo/stores/ed3fe810fbfd0028d9270bff16c9cd02410e2bf551e3ebfa716b079eca0011f6?t=W3sicmVzaXplIjp7IndpZHRoIjo1NTB9fSx7IndlYnAiOnt9fV0=",
+      "delivery_fee": "N/A",
+      "delivery_time": "N/A",
+      "rating": "71%",
+      "number_of_reviews": "16",
+      "promotion": "71%",
+      "products": []
+    },
+    {
+      "category_name": "P comme Para",
+      "category_url": "https://glovoapp.com/tn/en/sfax/p-comme-para-sfx",
+      "image": "https://glovo.dhmedia.io/image/stores-glovo/stores/c38e2a91f4545a086cf779826c48d58dc2f0e34b8a0d9cd1f15b3533f69ba4e8?t=W3sicmVzaXplIjp7IndpZHRoIjo1NTB9fSx7IndlYnAiOnt9fV0=",
+      "delivery_fee": "N/A",
+      "delivery_time": "N/A",
+      "rating": "N/A",
+      "number_of_reviews": "N/A",
+      "promotion": "N/A",
+      "products": []
+    },
+    {
+      "category_name": "IQOS",
+      "category_url": "https://glovoapp.com/tn/en/sfax/iqos-sfx",
+      "image": "https://glovo.dhmedia.io/image/stores-glovo/stores/bb253a85c19e29f746fbd7acb592cba267961790cf4ad02750411a993ae80a83?t=W3sicmVzaXplIjp7IndpZHRoIjo1NTB9fSx7IndlYnAiOnt9fV0=",
+      "delivery_fee": "N/A",
+      "delivery_time": "N/A",
+      "rating": "N/A",
+      "number_of_reviews": "N/A",
+      "promotion": "N/A",
+      "products": []
+    },
+    {
+      "category_name": "Happyness",
+      "category_url": "https://glovoapp.com/tn/en/sfax/happyness-sfx",
+      "image": "https://glovo.dhmedia.io/image/stores-glovo/stores/735a2695df9d9e31cd3d42e6fb1944f447438afeb5ca3b62f6440ec4ce15e026?t=W3sicmVzaXplIjp7IndpZHRoIjo1NTB9fSx7IndlYnAiOnt9fV0=",
+      "delivery_fee": "N/A",
+      "delivery_time": "N/A",
+      "rating": "N/A",
+      "number_of_reviews": "N/A",
+      "promotion": "N/A",
+      "products": []
+    },
+    {
+      "category_name": "Zanimo",
+      "category_url": "https://glovoapp.com/tn/en/sfax/zanimo-sfx",
+      "image": "https://glovo.dhmedia.io/image/stores-glovo/stores/7625333f6dc18154d2e3b9c550cdff3adb91f3f2f18713287d9e06f695ce063d?t=W3sicmVzaXplIjp7IndpZHRoIjo1NTB9fSx7IndlYnAiOnt9fV0=",
+      "delivery_fee": "N/A",
+      "delivery_time": "N/A",
+      "rating": "N/A",
+      "number_of_reviews": "N/A",
+      "promotion": "N/A",
+      "products": []
+    }
+  ]
+}

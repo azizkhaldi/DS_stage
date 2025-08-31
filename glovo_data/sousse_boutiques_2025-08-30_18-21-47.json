@@ -1,0 +1,84 @@
+{
+  "scraping_date": "2025-08-31T03:26:52.796846",
+  "city": "sousse",
+  "category_type": "boutiques",
+  "url": "https://glovoapp.com/en/tn/sousse/categories/boutiques_22",
+  "page_title": "Glovo",
+  "raw_text": "",
+  "data": [
+    {
+      "category_name": "Mille Et Une Fleurs",
+      "category_url": "https://glovoapp.com/tn/en/sousse/mille-et-une-fleurs-sou",
+      "image": "https://glovo.dhmedia.io/image/stores-glovo/stores/ed3fe810fbfd0028d9270bff16c9cd02410e2bf551e3ebfa716b079eca0011f6?t=W3sicmVzaXplIjp7IndpZHRoIjo1NTB9fSx7IndlYnAiOnt9fV0=",
+      "delivery_fee": "N/A",
+      "delivery_time": "N/A",
+      "rating": "0096%",
+      "number_of_reviews": "10",
+      "promotion": "0096%",
+      "products": []
+    },
+    {
+      "category_name": "Le bouquet",
+      "category_url": "https://glovoapp.com/tn/en/sousse/le-bouquet-sou",
+      "image": "https://glovo.dhmedia.io/image/stores-glovo/stores/251cc1e051fc6033142d79d6c8ee70a2a6056a72a9223afdc63316792987829f?t=W3sicmVzaXplIjp7IndpZHRoIjo1NTB9fSx7IndlYnAiOnt9fV0=",
+      "delivery_fee": "N/A",
+      "delivery_time": "N/A",
+      "rating": "N/A",
+      "number_of_reviews": "N/A",
+      "promotion": "N/A",
+      "products": []
+    },
+    {
+      "category_name": "Zanimo",
+      "category_url": "https://glovoapp.com/tn/en/sousse/zanimo-sou",
+      "image": "https://glovo.dhmedia.io/image/stores-glovo/stores/44cdc6205e2832ddec9ccc5cd1cde8ec5d76c4ad8c540d445caef0145ff8431d?t=W3sicmVzaXplIjp7IndpZHRoIjo1NTB9fSx7IndlYnAiOnt9fV0=",
+      "delivery_fee": "N/A",
+      "delivery_time": "N/A",
+      "rating": "00100%",
+      "number_of_reviews": "54",
+      "promotion": "00100%",
+      "products": [
+        {
+          "product_name": "Ownat",
+          "product_price": "36,000 D",
+          "original_price": "36,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/aa/434cb160-5abe-49e1-a784-192ea999a56b.jpg?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoxNTAsImhlaWdodCI6MTUwfX1d",
+          "promotion": "N/A",
+          "description": "OWNAT CHAT STERILIZED 1,5 KG",
+          "section": "Zanimo"
+        },
+        {
+          "product_name": "Lit",
+          "product_price": "21,000 D",
+          "original_price": "21,000 D",
+          "product_image": "https://glovo.dhmedia.io/image/global-catalog-glovo/nv-global-catalog/aa/133a86f5-4909-49fa-80b4-375d1557a8e9.jpeg?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoxNTAsImhlaWdodCI6MTUwfX1d",
+          "promotion": "N/A",
+          "description": "LIT BIOCAT'S SAVON DE MARSEILLE  10L",
+          "section": "Zanimo"
+        }
+      ]
+    },
+    {
+      "category_name": "IQOS",
+      "category_url": "https://glovoapp.com/tn/en/sousse/iqos-sou",
+      "image": "https://glovo.dhmedia.io/image/stores-glovo/stores/bb253a85c19e29f746fbd7acb592cba267961790cf4ad02750411a993ae80a83?t=W3sicmVzaXplIjp7IndpZHRoIjo1NTB9fSx7IndlYnAiOnt9fV0=",
+      "delivery_fee": "N/A",
+      "delivery_time": "N/A",
+      "rating": "N/A",
+      "number_of_reviews": "N/A",
+      "promotion": "N/A",
+      "products": []
+    },
+    {
+      "category_name": "Le Secret De Koraïs",
+      "category_url": "https://glovoapp.com/tn/en/sousse/le-secret-de-korais-sou",
+      "image": "https://glovo.dhmedia.io/image/stores-glovo/stores/cb9404c7ebe90843f0cc24534bc867b95849868832db0163e15d4e16dbf4de3f?t=W3sicmVzaXplIjp7IndpZHRoIjo1NTB9fSx7IndlYnAiOnt9fV0=",
+      "delivery_fee": "50 D",
+      "delivery_time": "N/A",
+      "rating": "100%",
+      "number_of_reviews": "22",
+      "promotion": "100%",
+      "products": []
+    }
+  ]
+}
