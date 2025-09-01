@@ -32,6 +32,8 @@ Elle combine **Playwright, BeautifulSoup, LLM (Ollama + LangChain), NLP et modè
    - Sauvegarde → `result.json`
 
 ---
+<img width="747" height="801" alt="image" src="https://github.com/user-attachments/assets/e03a841a-f8dc-471b-9a3b-00ec1d603720" />  <img width="1038" height="182" alt="image" src="https://github.com/user-attachments/assets/a89d71b9-1dce-4bc0-aa6b-08a86139803c" />
+
 
 ## 2️⃣ `social_media_verification.py`
 
@@ -87,6 +89,7 @@ overall_score = ((name_score×1) + (address_score×3) + (phone_score×2)) / (1+3
 - **Remarque :** parmi tous les liens vérifiés (Facebook, Instagram), celui qui obtient le score le plus élevé détermine si l'établissement est marqué comme `VERIFIED`.
 
 ---
+<img width="1040" height="831" alt="image" src="https://github.com/user-attachments/assets/8adcd10d-a74d-4429-b132-42469f1a28a0" />
 
 ## 3️⃣ pub_scraper.py
 
@@ -103,6 +106,7 @@ overall_score = ((name_score×1) + (address_score×3) + (phone_score×2)) / (1+3
 7. Sauvegarde progressive + timestamp  
 
 ---
+<img width="1844" height="758" alt="image" src="https://github.com/user-attachments/assets/d901e8eb-2338-4588-9a2d-0f3e2aa38622" />
 
 ## 4️⃣ storie_scraper.py
 
@@ -144,6 +148,7 @@ overall_score = ((name_score×1) + (address_score×3) + (phone_score×2)) / (1+3
 - Avis enrichis + analyse CSV/statistiques/graphiques  
 
 ---
+<img width="1877" height="745" alt="image" src="https://github.com/user-attachments/assets/383d34fb-82d1-4f06-a634-93172943a49b" />
 
 ## 6️⃣ glovo_scraper.py
 
@@ -182,6 +187,7 @@ overall_score = ((name_score×1) + (address_score×3) + (phone_score×2)) / (1+3
 - Sauvegarde structurée avec métadonnées et timestamps  
 - Support multilingue (français, anglais, arabe, tunisien)  
 
+<img width="1908" height="871" alt="image" src="https://github.com/user-attachments/assets/b64451b4-b36a-4a42-9874-bb8147625171" />
 
 
 # 🚀 Pipeline Glovo Chatbot + API + App
@@ -238,6 +244,8 @@ Ce pipeline décrit le fonctionnement complet des fichiers `glovo_chatbot.py`, `
 - Prêt pour intégration front-end
 
 ---
+<img width="1765" height="965" alt="image" src="https://github.com/user-attachments/assets/55a8ce2a-2e8a-4990-abef-3860e202b730" />
+
 
 ## 3️⃣ app.py – Interface Streamlit
 
@@ -263,6 +271,7 @@ Ce pipeline décrit le fonctionnement complet des fichiers `glovo_chatbot.py`, `
 - Affichage clair promotions & détails produits
 
 ---
+<img width="1901" height="927" alt="image" src="https://github.com/user-attachments/assets/dfa62c66-bd04-49bc-b502-243198be64ca" />
 
 ## 🔄 Pipeline global
 
@@ -280,8 +289,9 @@ api.py → interface HTTP
 
 app.py → front-end interactif
 
+<img width="914" height="601" alt="image" src="https://github.com/user-attachments/assets/62fe4571-a0a3-44f7-9ba2-6173f811665f" />
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/652daa92-6054-465a-86f8-bd25696a9d0b" />
+
 
 
 ## 🔧 Technologies & Librairies
