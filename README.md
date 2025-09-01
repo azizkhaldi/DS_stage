@@ -126,8 +126,11 @@ overall_score = ((name_score×1) + (address_score×3) + (phone_score×2)) / (1+3
 2. Connexion Facebook (login manuel si nécessaire)  
 3. Navigation vers page des avis  
 4. Extraction avis : filtres, nettoyage, suppression doublons  
-5. Prétraitement linguistique : détection langue + nettoyage  
-
+5. Prétraitement linguistique : détection langue + nettoyage
+6. Analyse NLP (sentiment, aspects, mots-clés)
+7. Agrégation (distribution sentiments, score moyen par aspect)
+8. Sauvegarde → reviews.json + analysis/
+   
 ### Analyse NLP
 - Sentiment global  
 - Aspects (service, food, price, ambiance…)  
