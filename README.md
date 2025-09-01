@@ -181,3 +181,116 @@ overall_score = ((name_score×1) + (address_score×3) + (phone_score×2)) / (1+3
 - Calcul de score global pondéré pour vérification fiabilité  
 - Sauvegarde structurée avec métadonnées et timestamps  
 - Support multilingue (français, anglais, arabe, tunisien)  
+
+
+
+# 🚀 Pipeline Glovo Chatbot + API + App
+
+Ce pipeline décrit le fonctionnement complet des fichiers `glovo_chatbot.py`, `api.py` et `app.py` pour un assistant Glovo intelligent.
+
+---
+
+## 1️⃣ glovo_chatbot.py – Moteur RAG
+
+📂 **Input :** JSON Glovo scrappés (`glovo_data/*.json`)  
+📦 **Output :** Base vectorielle Qdrant (mémoire ou serveur)
+
+### 🔹 Workflow
+- ⚡ Initialisation de `GlovoQdrantRAG`
+- 📥 Chargement des fichiers JSON
+- 📝 Préparation des documents :
+  - Magasins
+  - Produits
+- 🔗 Indexation dans Qdrant via embeddings `SentenceTransformer`
+- 🔍 Recherche intelligente (RAG) avec filtres : ville, type, top_k
+- 💬 Génération de réponses via Llama2 (Ollama) avec contexte RAG
+- 🏁 Pipeline complet : `chat(query, city)`  
+  → Réponse IA + Résultats pertinents + Suggestions de filtres
+
+### ✅ Points forts
+- Multilingue : français, anglais, tunisien  
+- Recherche par ville, promotions, type de magasin/produit  
+- Embeddings vectoriels pour recherche sémantique
+
+---
+
+## 2️⃣ api.py – API FastAPI
+
+📦 **Input :** `glovo_chatbot.py`  
+📦 **Output :** API REST (`http://localhost:8000`)
+
+### 🔹 Workflow
+- ⚙️ Initialisation FastAPI avec `lifespan` (startup/shutdown)
+- 📂 Chargement du système RAG (`GlovoQdrantRAG`)
+- 🌐 Endpoints principaux :
+  - `/` → statut & disponibilité RAG
+  - `/chat` → chat interactif IA
+  - `/search` → recherche avancée avec filtres (prix, promo, type)
+  - `/cities` → liste des villes disponibles
+  - `/stores/{city}` → magasins par ville
+  - `/health` → état de santé API
+- 🛠️ Gestion des filtres et extraction de prix
+- 🔐 Sécurisation des imports et erreurs
+
+### ✅ Points forts
+- Centralisation des requêtes vers RAG  
+- Filtrage avancé des résultats  
+- Prêt pour intégration front-end
+
+---
+
+## 3️⃣ app.py – Interface Streamlit
+
+📦 **Input :** API FastAPI (`api.py`)  
+📦 **Output :** Interface web utilisateur interactive
+
+### 🔹 Workflow
+- 📊 Configuration page et sidebar :
+  - Ville
+  - Type (Magasins / Produits)
+  - Prix max
+- ✏️ Saisie utilisateur : recherche via text input
+- 🔗 Appel API `/chat` pour obtenir :
+  - Réponse IA
+  - Résultats détaillés
+- 📂 Affichage dynamique avec `st.expander` pour chaque résultat
+- ⚠️ Gestion erreurs API et suggestions automatiques
+- 🎯 Boutons de suggestions rapides pour lancer une recherche
+
+### ✅ Points forts
+- Interface intuitive et responsive  
+- Interaction directe avec API & RAG  
+- Affichage clair promotions & détails produits
+
+---
+
+## 🔄 Pipeline global
+
+mermaid
+flowchart LR
+    A[📦 JSON Glovo scrappés] --> B[🤖 glovo_chatbot.py]
+    B --> C[💾 Qdrant Base Vectorielle / Embeddings]
+    C --> D[🌐 api.py - FastAPI]
+    D --> E[🖥️ app.py - Streamlit Front-End]
+    E --> F[👤 Utilisateur final]
+
+glovo_chatbot.py → moteur RAG
+
+api.py → interface HTTP
+
+app.py → front-end interactif
+
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/652daa92-6054-465a-86f8-bd25696a9d0b" />
+
+
+## 🔧 Technologies & Librairies
+
+-**Python**3.11+
+-**FastAPI** → API REST
+-**Streamlit** → interface web
+-**Qdrant** → vector database
+-**SentenceTransformer** → embeddings
+-**Ollama / Llama2** → génération de réponses
+-**Requests** → front-end → API
+-**JSON** → stockage structuré
