@@ -7,6 +7,10 @@ import time
 from datetime import datetime
 import logging
 from playwright.async_api import async_playwright
+import pytesseract
+from PIL import Image
+import cv2
+import numpy as np
 
 class StoriesTester:
     def __init__(self, test_url, output_dir="stories_test"):
@@ -23,6 +27,13 @@ class StoriesTester:
         self.context = None
         self.page = None
         self.instagram_logged_in = False
+        
+        # Configurer le chemin de Tesseract si nécessaire (Windows)
+        if os.name == 'nt':  # Windows
+            try:
+                pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+            except:
+                self.logger.warning("Tesseract non trouvé, l'OCR ne fonctionnera pas")
 
     async def initialize_browser(self):
         """Initialise le navigateur"""
@@ -156,8 +167,80 @@ class StoriesTester:
             self.logger.error(f"Erreur détection éléments stories Instagram: {e}")
             return []
 
+    def analyze_promo_with_ocr(self, image_path):
+        """Analyse l'image avec OCR pour détecter les promotions"""
+        try:
+            # Charger l'image
+            img = cv2.imread(image_path)
+            
+            # Prétraitement de l'image pour améliorer l'OCR
+            gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+            
+            # Appliquer un seuil pour obtenir une image binaire
+            thresh = cv2.threshold(gray, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)[1]
+            
+            # Inverser les couleurs si nécessaire (texte blanc sur fond sombre)
+            inverted = cv2.bitwise_not(thresh)
+            
+            # Utiliser pytesseract pour extraire le texte
+            custom_config = r'--oem 3 --psm 6 -l fra+eng'
+            text = pytesseract.image_to_string(inverted, config=custom_config)
+            
+            # Nettoyer le texte
+            text = text.strip()
+            
+            if not text:
+                return {
+                    'has_promo': False,
+                    'promo_type': None,
+                    'promo_details': None,
+                    'extracted_text': None
+                }
+            
+            # Mots-clés pour détecter les promotions
+            promo_keywords = {
+                'promo': ['promo', 'promotion', 'soldes', 'sale', 'réduction', 'rabais', 'offre'],
+                'discount': ['%', 'pourcent', 'percent', 'réduction', 'remise', 'discount'],
+                'code': ['code', 'codepromo', 'promocode', 'coupon', 'voucher'],
+                'limited': ['limitée', 'limited', 'temps', 'time', 'jusqu\'à', 'until'],
+                'free': ['gratuit', 'free', 'offert', 'cadeau', 'gift'],
+                'price': ['€', 'eur', 'euro', '$', 'usd', 'price', 'prix']
+            }
+            
+            # Détecter le type de promotion
+            promo_type = None
+            promo_details = []
+            text_lower = text.lower()
+            
+            # Vérifier chaque catégorie de promotion
+            for category, keywords in promo_keywords.items():
+                for keyword in keywords:
+                    if keyword in text_lower:
+                        if not promo_type:
+                            promo_type = category
+                        promo_details.append(keyword)
+            
+            # Si on a trouvé des indications de promotion
+            has_promo = promo_type is not None
+            
+            return {
+                'has_promo': has_promo,
+                'promo_type': promo_type,
+                'promo_details': promo_details if has_promo else None,
+                'extracted_text': text if has_promo else None  # Ne retourner le texte que si promo détectée
+            }
+            
+        except Exception as e:
+            self.logger.error(f"Erreur lors de l'analyse OCR: {e}")
+            return {
+                'has_promo': False,
+                'promo_type': None,
+                'promo_details': None,
+                'extracted_text': None
+            }
+
     async def capture_all_instagram_stories(self):
-        """Capture tous les stories Instagram disponibles"""
+        """Capture tous les stories Instagram disponibles et analyse les promotions"""
         stories_data = []
         try:
             story_index = 0
@@ -169,20 +252,32 @@ class StoriesTester:
                 screenshot_path = os.path.join(self.stories_dir, screenshot_filename)
                 await self.page.screenshot(path=screenshot_path)
                 
-                # Extraire le texte
-                story_text = await self.page.evaluate('''() => {
+                # Extraire le texte avec OCR
+                ocr_result = self.analyze_promo_with_ocr(screenshot_path)
+                
+                # Extraire le texte HTML également
+                html_text = await self.page.evaluate('''() => {
                     const textEl = document.querySelector('div[dir="auto"], div[class*="text"], div[class*="caption"]');
-                    return textEl ? textEl.textContent.trim() : 'Aucun texte détecté';
+                    return textEl ? textEl.textContent.trim() : '';
                 }''')
                 
-                stories_data.append({
-                    'text': story_text[:200] + "..." if len(story_text) > 200 else story_text,
+                # Combiner les résultats
+                story_info = {
+                    'text': html_text[:200] + "..." if len(html_text) > 200 else html_text,
                     'screenshot': screenshot_path,
                     'timestamp': datetime.now().isoformat(),
-                    'index': story_index
-                })
+                    'index': story_index,
+                    'has_promo': ocr_result['has_promo'],
+                    'promo_type': ocr_result['promo_type'],
+                    'promo_details': ocr_result['promo_details'],
+                    'ocr_text': ocr_result['extracted_text']
+                }
                 
-                self.logger.info(f"✅ Story Instagram {story_index + 1} capturé")
+                stories_data.append(story_info)
+                
+                self.logger.info(f"✅ Story Instagram {story_index + 1} capturé - Promotion: {ocr_result['has_promo']}")
+                if ocr_result['has_promo']:
+                    self.logger.info(f"📢 Type de promotion: {ocr_result['promo_type']} - Détails: {ocr_result['promo_details']}")
                 
                 # Passer au story suivant
                 if story_index < max_stories - 1:
@@ -252,16 +347,29 @@ class StoriesTester:
                         self.logger.warning(f"Erreur avec l'élément Instagram {i+1}: {e}")
                         continue
             
+            # Statistiques sur les promotions détectées
+            promo_count = sum(1 for story in stories_data if story.get('has_promo', False))
+            
             return {
                 'has_stories': has_stories,
-                'stories': stories_data if has_stories else []
+                'stories': stories_data if has_stories else [],
+                'promo_stats': {
+                    'total_stories': len(stories_data),
+                    'promo_stories': promo_count,
+                    'promo_percentage': (promo_count / len(stories_data) * 100) if stories_data else 0
+                }
             }
             
         except Exception as e:
             self.logger.error(f"Erreur vérification stories Instagram: {e}")
             return {
                 'has_stories': False,
-                'stories': []
+                'stories': [],
+                'promo_stats': {
+                    'total_stories': 0,
+                    'promo_stories': 0,
+                    'promo_percentage': 0
+                }
             }
 
     async def run_test(self):
@@ -293,7 +401,21 @@ async def main():
     print(f"\n✅ Test terminé!")
     print(f"Stories trouvés: {results['has_stories']}")
     print(f"Nombre de stories capturés: {len(results['stories'])}")
-    print(f"Format JSON:")
+    
+    if results['has_stories']:
+        print(f"Stories avec promotions: {results['promo_stats']['promo_stories']}")
+        print(f"Pourcentage de promotions: {results['promo_stats']['promo_percentage']:.2f}%")
+        
+        # Afficher les détails des promotions
+        for i, story in enumerate(results['stories']):
+            if story['has_promo']:
+                print(f"\n📢 Story {i+1} - Promotion détectée:")
+                print(f"   Type: {story['promo_type']}")
+                print(f"   Détails: {story['promo_details']}")
+                if story['ocr_text']:
+                    print(f"   Texte détecté: {story['ocr_text'][:100]}...")
+    
+    print(f"\nFormat JSON complet:")
     print(json.dumps(results, indent=2))
 
 if __name__ == "__main__":
