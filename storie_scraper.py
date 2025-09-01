@@ -13,8 +13,7 @@ import cv2
 import numpy as np
 
 class StoriesTester:
-    def __init__(self, test_url, output_dir="stories_test"):
-        self.test_url = test_url
+    def __init__(self, output_dir="stories_test"):
         self.output_dir = output_dir
         self.stories_dir = os.path.join(output_dir, "stories")
         os.makedirs(self.stories_dir, exist_ok=True)
@@ -298,9 +297,9 @@ class StoriesTester:
         
         return stories_data
 
-    async def test_instagram_stories(self):
-        """Teste la récupération des stories Instagram"""
-        self.logger.info("🧪 Test des stories Instagram")
+    async def test_instagram_stories(self, test_url, place_info):
+        """Teste la récupération des stories Instagram pour une URL spécifique"""
+        self.logger.info(f"🧪 Test des stories Instagram pour: {place_info.get('place_name', 'Unknown')}")
         
         try:
             stories_data = []
@@ -314,7 +313,7 @@ class StoriesTester:
                         'stories': []
                     }
             
-            await self.page.goto(self.test_url, timeout=90000)
+            await self.page.goto(test_url, timeout=90000)
             await asyncio.sleep(5)
             
             story_elements = await self.detect_instagram_story_elements()
@@ -372,51 +371,127 @@ class StoriesTester:
                 }
             }
 
-    async def run_test(self):
-        """Exécute le test des stories"""
+    def load_verification_data(self, file_path="verification_results.json"):
+        """Charge les données de vérification depuis le fichier JSON"""
+        try:
+            with open(file_path, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+            return data
+        except Exception as e:
+            self.logger.error(f"Erreur lors du chargement du fichier {file_path}: {e}")
+            return []
+
+    def extract_instagram_urls(self, verification_data):
+        """Extrait les URLs Instagram des données de vérification"""
+        instagram_urls = []
+        
+        for item in verification_data:
+            place_name = item.get('place_name', 'Unknown')
+            social_links = item.get('social_links', [])
+            
+            for link in social_links:
+                if link.get('type') == 'instagram' and link.get('verified', False):
+                    instagram_urls.append({
+                        'url': link['url'],
+                        'place_name': place_name,
+                        'place_info': item
+                    })
+        
+        return instagram_urls
+
+    async def run_tests_from_verification_file(self, verification_file="verification.json"):
+        """Exécute les tests des stories pour tous les URLs Instagram du fichier de vérification"""
+        # Charger les données de vérification
+        verification_data = self.load_verification_data(verification_file)
+        if not verification_data:
+            self.logger.error("Aucune donnée de vérification trouvée")
+            return []
+        
+        # Extraire les URLs Instagram vérifiés
+        instagram_urls = self.extract_instagram_urls(verification_data)
+        if not instagram_urls:
+            self.logger.error("Aucun URL Instagram vérifié trouvé")
+            return []
+        
+        self.logger.info(f"📋 {len(instagram_urls)} URLs Instagram vérifiés trouvés")
+        
+        # Initialiser le navigateur
         await self.initialize_browser()
         
-        result = await self.test_instagram_stories()
+        results = []
         
+        # Tester chaque URL Instagram
+        for idx, instagram_info in enumerate(instagram_urls):
+            self.logger.info(f"🔍 Test {idx+1}/{len(instagram_urls)}: {instagram_info['place_name']}")
+            
+            result = await self.test_instagram_stories(
+                instagram_info['url'], 
+                instagram_info['place_info']
+            )
+            
+            # Ajouter les informations du lieu aux résultats
+            result['place_name'] = instagram_info['place_name']
+            result['instagram_url'] = instagram_info['url']
+            result['place_info'] = instagram_info['place_info']
+            
+            results.append(result)
+            
+            # Sauvegarder les résultats après chaque test
+            output_file = os.path.join(self.output_dir, f"stories_test_results_{int(time.time())}.json")
+            with open(output_file, 'w', encoding='utf-8') as f:
+                json.dump(results, f, indent=2, ensure_ascii=False)
+            
+            self.logger.info(f"📊 Résultats intermédiaires sauvegardés dans {output_file}")
+            
+            # Attendre un peu avant le prochain test
+            await self.human_like_delay(2, 5)
+        
+        # Fermer le navigateur
         await self.close_browser()
         
-        output_file = os.path.join(self.output_dir, f"stories_test_result_{int(time.time())}.json")
-        with open(output_file, 'w', encoding='utf-8') as f:
-            json.dump(result, f, indent=2, ensure_ascii=False)
+        # Sauvegarder les résultats finaux
+        final_output_file = os.path.join(self.output_dir, f"stories_test_final_results_{int(time.time())}.json")
+        with open(final_output_file, 'w', encoding='utf-8') as f:
+            json.dump(results, f, indent=2, ensure_ascii=False)
         
-        self.logger.info(f"📊 Résultats sauvegardés dans {output_file}")
-        return result
+        self.logger.info(f"📊 Résultats finaux sauvegardés dans {final_output_file}")
+        return results
 
 # Fonction principale pour tester
 async def main():
-    test_url = input("Entrez l'URL Instagram à tester: ").strip()
+    verification_file = "verification.json"
     
-    if not test_url:
-        print("URL invalide")
+    if not os.path.exists(verification_file):
+        print(f"❌ Fichier {verification_file} non trouvé")
         return
     
-    tester = StoriesTester(test_url)
-    results = await tester.run_test()
+    tester = StoriesTester()
+    results = await tester.run_tests_from_verification_file(verification_file)
     
     print(f"\n✅ Test terminé!")
-    print(f"Stories trouvés: {results['has_stories']}")
-    print(f"Nombre de stories capturés: {len(results['stories'])}")
+    print(f"Nombre de comptes Instagram testés: {len(results)}")
     
-    if results['has_stories']:
-        print(f"Stories avec promotions: {results['promo_stats']['promo_stories']}")
-        print(f"Pourcentage de promotions: {results['promo_stats']['promo_percentage']:.2f}%")
-        
-        # Afficher les détails des promotions
-        for i, story in enumerate(results['stories']):
-            if story['has_promo']:
-                print(f"\n📢 Story {i+1} - Promotion détectée:")
-                print(f"   Type: {story['promo_type']}")
-                print(f"   Détails: {story['promo_details']}")
-                if story['ocr_text']:
-                    print(f"   Texte détecté: {story['ocr_text'][:100]}...")
+    # Statistiques globales
+    total_stories = sum(len(result.get('stories', [])) for result in results)
+    total_promo_stories = sum(result.get('promo_stats', {}).get('promo_stories', 0) for result in results)
     
-    print(f"\nFormat JSON complet:")
-    print(json.dumps(results, indent=2))
+    print(f"Total de stories analysés: {total_stories}")
+    print(f"Total de stories avec promotions: {total_promo_stories}")
+    
+    # Détails par compte
+    for result in results:
+        if result['has_stories']:
+            print(f"\n🏪 {result['place_name']}:")
+            print(f"   Stories: {len(result['stories'])}")
+            print(f"   Promotions: {result['promo_stats']['promo_stories']}")
+            print(f"   Taux de promotion: {result['promo_stats']['promo_percentage']:.2f}%")
+            
+            # Afficher les détails des promotions
+            for i, story in enumerate(result['stories']):
+                if story['has_promo']:
+                    print(f"   📢 Story {i+1}: {story['promo_type']} - {story['promo_details']}")
+    
+    print(f"\nRésultats détaillés sauvegardés dans le dossier {tester.output_dir}")
 
 if __name__ == "__main__":
     asyncio.run(main())
