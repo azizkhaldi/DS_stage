@@ -147,6 +147,38 @@ overall_score = ((name_score×1) + (address_score×3) + (phone_score×2)) / (1+3
 ### Sauvegarde
 - Avis enrichis + analyse CSV/statistiques/graphiques  
 
+# 📚 Modèles utilisés dans `AdvancedFacebookReviewsScraper.py`
+
+## 1) Détection de langue
+- **fastText LID-176** → `lid.176.ftz`
+  - Avantages : rapide, robuste pour FR/EN/AR/TN.
+  - Fallback : `langdetect` si le modèle n’est pas dispo.
+  
+## 2) Sentiment (multilingue)
+- **cardiffnlp/twitter-xlm-roberta-base-sentiment**
+  - 3 classes : negative / neutral / positive
+  - Très bon sur textes courts (avis, posts).
+
+## 3) Extraction d’aspects (zero-shot)
+- **joeddav/xlm-roberta-large-xnli**
+  - Labels proposés : `["service", "food", "price", "ambiance", "delivery", "cleanliness"]`
+  - Permet de scorer chaque avis sur ces aspects sans fine-tuning.
+
+## 4) Mots-clés (multilingue)
+- **KeyBERT** avec embedding :
+  - **sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2**
+  - Alternatif si léger : **all-MiniLM-L6-v2** (un peu moins bon en AR).
+
+## 5) Embeddings (agrégation / recherche / dédoublonnage sémantique)
+- **sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2**
+
+## 6) (Optionnel) Résumé d’avis longs (multilingue)
+- **csebuetnlp/mT5_multilingual_XLSum**
+  - Court résumé pour fiches synthèse.
+
+## 7) (Optionnel) Toxicité / grossièretés (filtrage)
+- **unitary/unbiased-toxic-roberta** (principalement EN, utile pour filtrer)
+
 ---
 <img width="1877" height="745" alt="image" src="https://github.com/user-attachments/assets/383d34fb-82d1-4f06-a634-93172943a49b" />
 
