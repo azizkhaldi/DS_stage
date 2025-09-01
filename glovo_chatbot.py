@@ -8,6 +8,7 @@ from sentence_transformers import SentenceTransformer
 import ollama
 from datetime import datetime
 import re
+import glob
 
 class GlovoQdrantRAG:
     def __init__(self, json_directory="glovo_data", collection_name="glovo_data"):
@@ -15,10 +16,11 @@ class GlovoQdrantRAG:
         self.collection_name = collection_name
         self.embedding_model = SentenceTransformer('all-MiniLM-L6-v2')
         self.qdrant_client = QdrantClient(":memory:")  # Local pour POC
-        # Pour production: QdrantClient(url="http://localhost:6333")
         
         self.data = []
         self.documents = []
+        self.reviews_data = []
+        self.verification_data = []
         
     def initialize_qdrant(self):
         """Initialise la collection Qdrant"""
@@ -39,17 +41,21 @@ class GlovoQdrantRAG:
         if not self.load_json_files():
             return False
         
+        # Charger les nouvelles données
+        self.load_verification_data()
+        self.load_reviews_data()
+        
         self.prepare_documents()
         self.index_documents()
         return True
     
     def load_json_files(self):
-        """Charge les fichiers JSON"""
-        import glob
+        """Charge les fichiers JSON Glovo"""
         json_files = glob.glob(os.path.join(self.json_directory, "*.json"))
+        json_files = [f for f in json_files if "verification" not in f.lower()]
         
         if not json_files:
-            print("Aucun fichier JSON trouvé")
+            print("Aucun fichier JSON Glovo trouvé")
             return False
         
         for file_path in json_files:
@@ -59,13 +65,46 @@ class GlovoQdrantRAG:
             except Exception as e:
                 print(f"Erreur chargement {file_path}: {e}")
         
-        print(f"✓ {len(self.data)} fichiers JSON chargés")
+        print(f"✓ {len(self.data)} fichiers JSON Glovo chargés")
         return True
+    
+    def load_verification_data(self):
+        """Charge les données de vérification depuis glovo_data"""
+        try:
+            verification_path = os.path.join(self.json_directory, "verification_results.json")
+            if os.path.exists(verification_path):
+                with open(verification_path, 'r', encoding='utf-8') as f:
+                    self.verification_data = json.load(f)
+                print(f"✓ {len(self.verification_data)} données de vérification chargées")
+            else:
+                print("⚠️  Fichier verification_results.json non trouvé")
+        except Exception as e:
+            print(f"❌ Erreur chargement vérification: {e}")
+    
+    def load_reviews_data(self):
+        """Charge les données d'avis depuis glovo_data/reviews/"""
+        try:
+            reviews_dir = os.path.join(self.json_directory, "reviews")
+            if os.path.exists(reviews_dir):
+                review_files = glob.glob(os.path.join(reviews_dir, "*.json"))
+                for file_path in review_files:
+                    try:
+                        with open(file_path, 'r', encoding='utf-8') as f:
+                            reviews = json.load(f)
+                            self.reviews_data.extend(reviews)
+                    except Exception as e:
+                        print(f"❌ Erreur chargement {file_path}: {e}")
+                print(f"✓ {len(self.reviews_data)} avis chargés depuis {len(review_files)} fichiers")
+            else:
+                print("⚠️  Dossier reviews non trouvé")
+        except Exception as e:
+            print(f"❌ Erreur chargement avis: {e}")
     
     def prepare_documents(self):
         """Prépare les documents pour l'indexation"""
         print("Préparation des documents...")
         
+        # Documents Glovo
         for city_data in self.data:
             city = city_data.get('city', 'Inconnu')
             category_type = city_data.get('category_type', 'Inconnu')
@@ -78,7 +117,18 @@ class GlovoQdrantRAG:
                     product_data = self._create_product_document(product, store, city)
                     self.documents.append(product_data)
         
-        print(f"✓ {len(self.documents)} documents préparés")
+        # Documents de vérification
+        for verification in self.verification_data:
+            verification_doc = self._create_verification_document(verification)
+            self.documents.append(verification_doc)
+        
+        # Documents d'avis
+        for review in self.reviews_data:
+            place_id = review.get('place_id', 'unknown')
+            review_doc = self._create_review_document(review, place_id)
+            self.documents.append(review_doc)
+        
+        print(f"✓ {len(self.documents)} documents préparés (Glovo + Vérification + Avis)")
     
     def _create_store_document(self, store, city, category_type):
         """Crée un document pour un magasin"""
@@ -140,6 +190,57 @@ class GlovoQdrantRAG:
             }
         }
     
+    def _create_verification_document(self, verification):
+        """Crée un document pour les données de vérification"""
+        verification_text = f"""
+        Vérification: {verification.get('place_name', 'Inconnu')}
+        Nom: {verification.get('nom', 'N/A')}
+        Adresse: {verification.get('adresse', 'N/A')}
+        Téléphone: {verification.get('telephone', 'N/A')}
+        Statut: {verification.get('verification_status', 'N/A')}
+        Détails: {verification.get('verification_details', 'N/A')}
+        Score: {verification.get('best_overall_score', 'N/A')}
+        """
+        
+        return {
+            'id': f"verification_{verification.get('id', 'unknown')}",
+            'type': 'verification',
+            'content': verification_text,
+            'metadata': {
+                'place_name': verification.get('place_name', 'Inconnu'),
+                'nom': verification.get('nom', 'N/A'),
+                'adresse': verification.get('adresse', 'N/A'),
+                'telephone': verification.get('telephone', 'N/A'),
+                'verification_status': verification.get('verification_status', 'N/A'),
+                'best_overall_score': verification.get('best_overall_score', 'N/A')
+            }
+        }
+    
+    def _create_review_document(self, review, place_id):
+        """Crée un document pour un avis"""
+        review_text = f"""
+        Avis: {review.get('cleaned_text', 'N/A')}
+        Auteur: {review.get('author', 'Inconnu')}
+        Sentiment: {review.get('sentiment', 'N/A')}
+        Note: {review.get('sentiment_rating', 'N/A')}
+        Langue: {review.get('language', 'N/A')}
+        Date: {review.get('date', 'N/A')}
+        """
+        
+        return {
+            'id': f"review_{review.get('review_id', 'unknown')}_{place_id}",
+            'type': 'review',
+            'content': review_text,
+            'metadata': {
+                'author': review.get('author', 'Inconnu'),
+                'sentiment': review.get('sentiment', 'N/A'),
+                'sentiment_rating': review.get('sentiment_rating', 'N/A'),
+                'language': review.get('language', 'N/A'),
+                'date': review.get('date', 'N/A'),
+                'place_id': place_id
+            }
+        }
+    
     def index_documents(self):
         """Indexe tous les documents dans Qdrant"""
         print("Indexation dans Qdrant...")
@@ -170,34 +271,79 @@ class GlovoQdrantRAG:
     
     def search(self, query: str, city: Optional[str] = None, 
                doc_type: Optional[str] = None, top_k: int = 10):
-        """Recherche avec filtres dans Qdrant"""
-        # Embedding de la requête
-        query_embedding = self.embedding_model.encode(query).tolist()
+        """Recherche avec filtres dans Qdrant - VERSION CORRIGÉE"""
+        try:
+            # Embedding de la requête
+            query_embedding = self.embedding_model.encode(query).tolist()
+            
+            # Recherche SANS filtres Qdrant d'abord (solution simple)
+            search_result = self.qdrant_client.search(
+                collection_name=self.collection_name,
+                query_vector=query_embedding,
+                limit=top_k * 3  # Prendre plus de résultats pour filtrer après
+            )
+            
+            # Filtrer manuellement après la recherche
+            filtered_results = []
+            for result in search_result:
+                metadata = result.payload.get('metadata', {})
+                
+                # Filtre ville
+                if city and metadata.get('city') != city:
+                    continue
+                    
+                # Filtre type de document
+                if doc_type and result.payload.get('type') != doc_type:
+                    continue
+                    
+                filtered_results.append({
+                    'score': result.score,
+                    'content': result.payload['content'],
+                    'type': result.payload['type'],
+                    'metadata': result.payload['metadata']
+                })
+                
+                if len(filtered_results) >= top_k:
+                    break
+            
+            return filtered_results
+            
+        except Exception as e:
+            print(f"❌ Erreur recherche: {e}")
+            # Fallback: recherche simple
+            return self._fallback_search(query, city, doc_type, top_k)
+    
+    def _fallback_search(self, query: str, city: Optional[str] = None, 
+                        doc_type: Optional[str] = None, top_k: int = 10):
+        """Recherche de fallback sans Qdrant"""
+        results = []
+        query_lower = query.lower()
         
-        # Construire les filtres
-        filter_conditions = {}
-        if city:
-            filter_conditions['metadata.city'] = city
-        if doc_type:
-            filter_conditions['type'] = doc_type
+        for doc in self.documents:
+            content = doc.get('content', '').lower()
+            metadata = doc.get('metadata', {})
+            
+            # Vérifier si le document correspond à la requête
+            if query_lower in content:
+                # Filtre ville
+                if city and metadata.get('city') != city:
+                    continue
+                    
+                # Filtre type de document
+                if doc_type and doc.get('type') != doc_type:
+                    continue
+                
+                results.append({
+                    'score': 0.8,  # Score simulé
+                    'content': doc.get('content', ''),
+                    'type': doc.get('type', ''),
+                    'metadata': doc.get('metadata', {})
+                })
+                
+                if len(results) >= top_k:
+                    break
         
-        # Recherche dans Qdrant
-        search_result = self.qdrant_client.search(
-            collection_name=self.collection_name,
-            query_vector=query_embedding,
-            query_filter=filter_conditions,
-            limit=top_k
-        )
-        
-        return [
-            {
-                'score': result.score,
-                'content': result.payload['content'],
-                'type': result.payload['type'],
-                'metadata': result.payload['metadata']
-            }
-            for result in search_result
-        ]
+        return results
     
     def generate_with_llama(self, query: str, context: List[Dict]):
         """Génération de réponse avec Llama2 via Ollama"""
@@ -257,7 +403,4 @@ class GlovoQdrantRAG:
         
         return filters
 
-# Initialisation globale
-rag_system = GlovoQdrantRAG()
-rag_system.initialize_qdrant()
-rag_system.load_and_index_data()
+# NE RIEN AJOUTER APRÈS CETTE LIGNE
