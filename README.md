@@ -83,6 +83,9 @@ overall_score = ((name_score×1) + (address_score×3) + (phone_score×2)) / (1+3
 - **0.4 – 0.6 → LIKELY_CORRECT**  
 - **< 0.4 → UNVERIFIED**
 
+  
+- **Remarque :** parmi tous les liens vérifiés (Facebook, Instagram), celui qui obtient le score le plus élevé détermine si l'établissement est marqué comme `VERIFIED`.
+
 ---
 
 ## 3️⃣ pub_scraper.py
