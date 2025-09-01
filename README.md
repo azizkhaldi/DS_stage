@@ -247,6 +247,11 @@ Ce pipeline décrit le fonctionnement complet des fichiers `glovo_chatbot.py`, `
 <img width="1765" height="965" alt="image" src="https://github.com/user-attachments/assets/55a8ce2a-2e8a-4990-abef-3860e202b730" />
 
 
+<img width="1090" height="645" alt="image" src="https://github.com/user-attachments/assets/eb46790b-4feb-4739-a8a4-0756ba6047ce" />
+
+
+<img width="1054" height="841" alt="image" src="https://github.com/user-attachments/assets/3edc5b91-3af9-4620-8920-b47c8e8565fd" />
+
 ## 3️⃣ app.py – Interface Streamlit
 
 📦 **Input :** API FastAPI (`api.py`)  
