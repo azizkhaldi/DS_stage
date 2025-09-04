@@ -137,9 +137,10 @@ overall_score = ((name_score×1) + (address_score×3) + (phone_score×2)) / (1+3
 1. Initialisation navigateur (Playwright)  
 2. Connexion Instagram (login manuel)  
 3. Détection stories  
-4. Capture stories : screenshot + texte visible  
-5. Statut & résultats (has_stories=True/False)  
-6. Sauvegarde JSON + fermeture navigateur  
+4. Capture stories : screenshot + texte visible
+5. Analyse OCR des captures pour détecter automatiquement les promotions
+6. Statut & résultats (has_stories=True/False)  
+7. Sauvegarde JSON + fermeture navigateur  
 
 ---
 
