@@ -6,6 +6,24 @@ Elle combine Playwright, BeautifulSoup, LangChain, LangGraph, LLM (Ollama/Llama2
 Un chatbot RAG (Retrieval-Augmented Generation) exploite ces données via Qdrant, FastAPI et Streamlit.
 
 ---
+# 📌 Fonctionnalités principales
+
+🌍 Web scraping multi-sources : Google Maps, Glovo, Facebook, Instagram.
+
+🧠 Structuration intelligente des données avec LangChain + LangGraph + LLM (Ollama/Llama2).
+
+🔎 Vérification & scoring automatique (fuzzy matching, numéros de téléphone, adresses).
+
+💬 Chatbot RAG avec recherche sémantique, filtres (ville, promo, prix, type de produit).
+
+🖼️ OCR (locr) intégré pour détecter automatiquement les promotions dans les images (stories, posts).
+
+📊 Analyse NLP avancée : sentiment, aspects (service, food, price, ambiance…), extraction de mots-clés.
+
+🌐 API REST (FastAPI) + Interface utilisateur (Streamlit).
+
+⚡ Support multilingue (français, anglais, arabe, tunisien).
+-----
 
 ## 1️⃣ `webscraper.py`
 
