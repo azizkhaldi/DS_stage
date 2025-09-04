@@ -1,7 +1,9 @@
-# 🌐 Web Scraping & Social Media Automation Suite
+# 🤖 OmniData Chatbot – Web, Social Media & Glovo Intelligence Suite
 
-Cette suite de scripts permet de collecter, vérifier et analyser des informations à partir de différentes sources web (Google Maps, Facebook, Instagram, Glovo) pour les restaurants et commerces en Tunisie.  
-Elle combine **Playwright, BeautifulSoup, LLM (Ollama + LangChain), NLP et modèles IA** pour obtenir des données fiables et structurées.
+Cette suite intelligente permet de scraper, structurer, analyser et exploiter des données multi-sources (Google Maps, Facebook, Instagram, Glovo) pour les restaurants et commerces en Tunisie.
+
+Elle combine Playwright, BeautifulSoup, LangChain, LangGraph, LLM (Ollama/Llama2), OCR et NLP pour obtenir des données fiables, enrichies et prêtes à l’usage.
+Un chatbot RAG (Retrieval-Augmented Generation) exploite ces données via Qdrant, FastAPI et Streamlit.
 
 ---
 
