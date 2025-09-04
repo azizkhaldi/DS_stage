@@ -1,4 +1,4 @@
-# 🤖 OmniData Chatbot – Web, Social Media & Glovo Intelligence Suite
+# 🤖 OmniAI Analyst Chatbot – Web, Social Media & Glovo Intelligence Suite
 
 Cette suite intelligente permet de scraper, structurer, analyser et exploiter des données multi-sources (Google Maps, Facebook, Instagram, Glovo) pour les restaurants et commerces en Tunisie.
 
@@ -335,7 +335,7 @@ Ce pipeline décrit le fonctionnement complet des fichiers `glovo_chatbot.py`, `
 
 mermaid
 flowchart LR
-    A[📦 JSON Glovo scrappés] --> B[🤖 glovo_chatbot.py]
+    A[📦 JSON Glovo scrappés] --> B[🤖 OmniAI Analyst_chatbot.py]
     B --> C[💾 Qdrant Base Vectorielle / Embeddings]
     C --> D[🌐 api.py - FastAPI]
     D --> E[🖥️ app.py - Streamlit Front-End]
